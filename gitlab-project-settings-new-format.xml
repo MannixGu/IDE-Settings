@@ -1,0 +1,359 @@
+<application>
+  <component name="SettingsState">
+    <option name="projects">
+      <list>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/root/amazefilemanager.git" />
+          <option name="name" value="AmazeFileManager" />
+          <option name="namespace" value="Administrator" />
+          <option name="sshUrl" value="git@190.1.1.40:root/amazefilemanager.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/root/codereview.git" />
+          <option name="name" value="CodeReview" />
+          <option name="namespace" value="Administrator" />
+          <option name="sshUrl" value="git@190.1.1.40:root/codereview.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/root/datacollectwork.git" />
+          <option name="name" value="DataCollectWork" />
+          <option name="namespace" value="Administrator" />
+          <option name="sshUrl" value="git@190.1.1.40:root/datacollectwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/root/foxofflinebrowser.git" />
+          <option name="name" value="FoxOfflineBrowser" />
+          <option name="namespace" value="Administrator" />
+          <option name="sshUrl" value="git@190.1.1.40:root/foxofflinebrowser.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/root/hooker.git" />
+          <option name="name" value="Hooker" />
+          <option name="namespace" value="Administrator" />
+          <option name="sshUrl" value="git@190.1.1.40:root/hooker.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/root/iwallwork.git" />
+          <option name="name" value="IWallWork" />
+          <option name="namespace" value="Administrator" />
+          <option name="sshUrl" value="git@190.1.1.40:root/iwallwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/root/photoartwork.git" />
+          <option name="name" value="PhotoArtWork" />
+          <option name="namespace" value="Administrator" />
+          <option name="sshUrl" value="git@190.1.1.40:root/photoartwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/root/rtoolkit.git" />
+          <option name="name" value="RToolkit" />
+          <option name="namespace" value="Administrator" />
+          <option name="sshUrl" value="git@190.1.1.40:root/rtoolkit.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/root/sdkmultiwork.git" />
+          <option name="name" value="SdkMultiWork" />
+          <option name="namespace" value="Administrator" />
+          <option name="sshUrl" value="git@190.1.1.40:root/sdkmultiwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/root/sleepalarmwork.git" />
+          <option name="name" value="SleepAlarmWork" />
+          <option name="namespace" value="Administrator" />
+          <option name="sshUrl" value="git@190.1.1.40:root/sleepalarmwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/root/zookawork.git" />
+          <option name="name" value="ZookaWork" />
+          <option name="namespace" value="Administrator" />
+          <option name="sshUrl" value="git@190.1.1.40:root/zookawork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/app/appcaptionwork.git" />
+          <option name="name" value="AppCaptainWork" />
+          <option name="namespace" value="app" />
+          <option name="sshUrl" value="git@190.1.1.40:app/appcaptionwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/app/countdownwork.git" />
+          <option name="name" value="CountdownWork" />
+          <option name="namespace" value="app" />
+          <option name="sshUrl" value="git@190.1.1.40:app/countdownwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/app/picsplaywork.git" />
+          <option name="name" value="PicsPlayWork" />
+          <option name="namespace" value="app" />
+          <option name="sshUrl" value="git@190.1.1.40:app/picsplaywork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/app/quantumwork.git" />
+          <option name="name" value="QuantumWork" />
+          <option name="namespace" value="app" />
+          <option name="sshUrl" value="git@190.1.1.40:app/quantumwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/app/timeanalysiswork.git" />
+          <option name="name" value="TimeAnalysisWork" />
+          <option name="namespace" value="app" />
+          <option name="sshUrl" value="git@190.1.1.40:app/timeanalysiswork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/cloud/cloudautomationwork.git" />
+          <option name="name" value="CloudAutomationWork" />
+          <option name="namespace" value="Cloud" />
+          <option name="sshUrl" value="git@190.1.1.40:cloud/cloudautomationwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/cloud/proxypluginwork.git" />
+          <option name="name" value="ProxyPluginWork" />
+          <option name="namespace" value="Cloud" />
+          <option name="sshUrl" value="git@190.1.1.40:cloud/proxypluginwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/pre/outsdkresearch.git" />
+          <option name="name" value="OutSdkResearch" />
+          <option name="namespace" value="pre" />
+          <option name="sshUrl" value="git@190.1.1.40:pre/outsdkresearch.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/sdk/adwaresdk.git" />
+          <option name="name" value="AdwareSDK" />
+          <option name="namespace" value="Sdk" />
+          <option name="sshUrl" value="git@190.1.1.40:sdk/adwaresdk.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/sdk/aggregationsdk.git" />
+          <option name="name" value="AggregationSDK" />
+          <option name="namespace" value="Sdk" />
+          <option name="sshUrl" value="git@190.1.1.40:sdk/aggregationsdk.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/sdk/basicwork.git" />
+          <option name="name" value="BasicWork" />
+          <option name="namespace" value="Sdk" />
+          <option name="sshUrl" value="git@190.1.1.40:sdk/basicwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/sdk/compatibilitywork.git" />
+          <option name="name" value="CompatibilityWork" />
+          <option name="namespace" value="Sdk" />
+          <option name="sshUrl" value="git@190.1.1.40:sdk/compatibilitywork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/sdk/flybearpluginwork.git" />
+          <option name="name" value="FlyBearPluginWork" />
+          <option name="namespace" value="Sdk" />
+          <option name="sshUrl" value="git@190.1.1.40:sdk/flybearpluginwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/sdk/foreignmodelwork.git" />
+          <option name="name" value="ForeignModelWork" />
+          <option name="namespace" value="Sdk" />
+          <option name="sshUrl" value="git@190.1.1.40:sdk/foreignmodelwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/sdk/jarbuildtoolwork.git" />
+          <option name="name" value="JarBuildToolWork" />
+          <option name="namespace" value="Sdk" />
+          <option name="sshUrl" value="git@190.1.1.40:sdk/jarbuildtoolwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/sdk/nicrolaunchwork.git" />
+          <option name="name" value="NicroLaunchWork" />
+          <option name="namespace" value="Sdk" />
+          <option name="sshUrl" value="git@190.1.1.40:sdk/nicrolaunchwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/sdk/nicrosdkwork.git" />
+          <option name="name" value="NicroSdkWork" />
+          <option name="namespace" value="Sdk" />
+          <option name="sshUrl" value="git@190.1.1.40:sdk/nicrosdkwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/sdk/ownerpluginwork.git" />
+          <option name="name" value="OwnerPluginWork" />
+          <option name="namespace" value="Sdk" />
+          <option name="sshUrl" value="git@190.1.1.40:sdk/ownerpluginwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/sdk/proxypluginwork.git" />
+          <option name="name" value="ProxyPluginWork" />
+          <option name="namespace" value="Sdk" />
+          <option name="sshUrl" value="git@190.1.1.40:sdk/proxypluginwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/sdk/repluginwork.git" />
+          <option name="name" value="RePluginWork" />
+          <option name="namespace" value="Sdk" />
+          <option name="sshUrl" value="git@190.1.1.40:sdk/repluginwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/sdk/sdkanalysiswork.git" />
+          <option name="name" value="SdkAnalysisWork" />
+          <option name="namespace" value="Sdk" />
+          <option name="sshUrl" value="git@190.1.1.40:sdk/sdkanalysiswork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/sdk/sdklaunchwork.git" />
+          <option name="name" value="SdkLaunchWork" />
+          <option name="namespace" value="Sdk" />
+          <option name="sshUrl" value="git@190.1.1.40:sdk/sdklaunchwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/sdk/sdkshellwork.git" />
+          <option name="name" value="SdkShellWork" />
+          <option name="namespace" value="Sdk" />
+          <option name="sshUrl" value="git@190.1.1.40:sdk/sdkshellwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/sdk/sharksdkwork.git" />
+          <option name="name" value="SharkSdkWork" />
+          <option name="namespace" value="Sdk" />
+          <option name="sshUrl" value="git@190.1.1.40:sdk/sharksdkwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/sdk/thirdpluginwork.git" />
+          <option name="name" value="ThirdPluginWork" />
+          <option name="namespace" value="Sdk" />
+          <option name="sshUrl" value="git@190.1.1.40:sdk/thirdpluginwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/sdk/trackwork.git" />
+          <option name="name" value="TrackWork" />
+          <option name="namespace" value="Sdk" />
+          <option name="sshUrl" value="git@190.1.1.40:sdk/trackwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/test/cloudproductwork.git" />
+          <option name="name" value="CloudProductWork" />
+          <option name="namespace" value="test" />
+          <option name="sshUrl" value="git@190.1.1.40:test/cloudproductwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/test/testfeaturework.git" />
+          <option name="name" value="TestFeatureWork" />
+          <option name="namespace" value="test" />
+          <option name="sshUrl" value="git@190.1.1.40:test/testfeaturework.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/tool/atxserver2-android-provider.git" />
+          <option name="name" value="atxserver2-android-provider" />
+          <option name="namespace" value="Tool" />
+          <option name="sshUrl" value="git@190.1.1.40:tool/atxserver2-android-provider.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/tool/autotaskwork.git" />
+          <option name="name" value="AutoTaskWork" />
+          <option name="namespace" value="Tool" />
+          <option name="sshUrl" value="git@190.1.1.40:tool/autotaskwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/tool/baseliveprojectwork.git" />
+          <option name="name" value="BaseLiveProjectWork" />
+          <option name="namespace" value="Tool" />
+          <option name="sshUrl" value="git@190.1.1.40:tool/baseliveprojectwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/tool/buildscriptwork.git" />
+          <option name="name" value="BuildScriptWork" />
+          <option name="namespace" value="Tool" />
+          <option name="sshUrl" value="git@190.1.1.40:tool/buildscriptwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/tool/datamanagerwork.git" />
+          <option name="name" value="DataManagerWork" />
+          <option name="namespace" value="Tool" />
+          <option name="sshUrl" value="git@190.1.1.40:tool/datamanagerwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/tool/errorhandler.git" />
+          <option name="name" value="ErrorHandler" />
+          <option name="namespace" value="Tool" />
+          <option name="sshUrl" value="git@190.1.1.40:tool/errorhandler.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/tool/focuswebwork.git" />
+          <option name="name" value="FocusWebWork" />
+          <option name="namespace" value="Tool" />
+          <option name="sshUrl" value="git@190.1.1.40:tool/focuswebwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/tool/foreignsdkmaker.git" />
+          <option name="name" value="ForeignSdkMaker" />
+          <option name="namespace" value="Tool" />
+          <option name="sshUrl" value="git@190.1.1.40:tool/foreignsdkmaker.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/tool/gpdownloadservicework.git" />
+          <option name="name" value="GPDownloadServiceWork" />
+          <option name="namespace" value="Tool" />
+          <option name="sshUrl" value="git@190.1.1.40:tool/gpdownloadservicework.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/tool/methodinjector.git" />
+          <option name="name" value="MethodInjector" />
+          <option name="namespace" value="Tool" />
+          <option name="sshUrl" value="git@190.1.1.40:tool/methodinjector.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/tool/packagemergework.git" />
+          <option name="name" value="PackageMergeWork" />
+          <option name="namespace" value="Tool" />
+          <option name="sshUrl" value="git@190.1.1.40:tool/packagemergework.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/tool/recombinecodework.git" />
+          <option name="name" value="RecombineCodeWork" />
+          <option name="namespace" value="Tool" />
+          <option name="sshUrl" value="git@190.1.1.40:tool/recombinecodework.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/tool/sdkbuilder.git" />
+          <option name="name" value="SdkBuilder" />
+          <option name="namespace" value="Tool" />
+          <option name="sshUrl" value="git@190.1.1.40:tool/sdkbuilder.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/tool/sdkdoc.git" />
+          <option name="name" value="SdkDoc" />
+          <option name="namespace" value="Tool" />
+          <option name="sshUrl" value="git@190.1.1.40:tool/sdkdoc.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/tool/sdkmakework.git" />
+          <option name="name" value="SdkmakeWork" />
+          <option name="namespace" value="Tool" />
+          <option name="sshUrl" value="git@190.1.1.40:tool/sdkmakework.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/tool/templete.git" />
+          <option name="name" value="Templete" />
+          <option name="namespace" value="Tool" />
+          <option name="sshUrl" value="git@190.1.1.40:tool/templete.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/tool/toolappwork.git" />
+          <option name="name" value="ToolAppWork" />
+          <option name="namespace" value="Tool" />
+          <option name="sshUrl" value="git@190.1.1.40:tool/toolappwork.git" />
+        </ProjectDto>
+        <ProjectDto>
+          <option name="httpUrl" value="http://190.1.1.40/tool/webbrowser.git" />
+          <option name="name" value="WebBrowser" />
+          <option name="namespace" value="Tool" />
+          <option name="sshUrl" value="git@190.1.1.40:tool/webbrowser.git" />
+        </ProjectDto>
+      </list>
+    </option>
+    <option name="gitlabServers">
+      <list>
+        <GitlabServer>
+          <option name="apiToken" value="ywDcfkdYdvxp9pb2Zy2T" />
+          <option name="apiUrl" value="http://190.1.1.40" />
+          <option name="repositoryUrl" value="190.1.1.40" />
+        </GitlabServer>
+      </list>
+    </option>
+  </component>
+</application>

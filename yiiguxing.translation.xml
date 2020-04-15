@@ -1,0 +1,21 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="Approve" />
+      <item value="only run in root project" />
+      <item value="interface" />
+      <item value="String describing the technology of the current battery" />
+      <item value="plugged" />
+      <item value="integer containing the current battery temperature" />
+      <item value="whether or not rule violations are to be displayed on the console." />
+      <item value="XOR Security" />
+      <item value="Byte Array Input Stream" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="12" />
+        <entry key="ENGLISH" value="13" />
+      </map>
+    </option>
+  </component>
+</application>
