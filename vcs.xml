@@ -3,119 +3,14 @@
     <option name="visitedUrls">
       <list>
         <UrlAndUserName>
-          <option name="url" value="https://anye.visualstudio.com/DefaultCollection/_git/BookReader" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://gitlab.abcdserver.com/Sdk/BasicWork" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://gitlab.abcdserver.com" />
-          <option name="userName" value="miaowei.su" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/asLody/VirtualApp.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://47.95.144.109/gitlab/Sdk/NicroSdkWork" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://47.95.144.109" />
-          <option name="userName" value="root" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://gitlab.abcdserver.com/Tool/ToolBuildWork.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://gitlab.abcdserver.com/miaowei.su/FastTouchWork" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://gitlab.abcdserver.com/Client_Other/TestWork.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://gitlab.abcdserver.com/Tool/SdkmakeWork.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://gitlab.abcdserver.com/Client_Other/SearchBoxWork.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://gitlab.abcdserver.com/Sdk/ForeignModelWork.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://gitlab.abcdserver.com/Tool/Templete.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/square/leakcanary.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://gitlab.abcdserver.com/Tool/SdkImportWork.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/JackyAndroid/AndroidChromium.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://gitlab.abcdserver.com/Client_Other/ShareFutureStyle.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://gitlab.abcdserver.com/Tool/VirualAppWork.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/Nightonke/BoomMenu.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://120.78.89.221" />
-          <option name="userName" value="root" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://gitlab.abcdserver.com/Sdk/SdkModelWork.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://120.78.89.221/Tool/MethodHooker.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://120.78.89.221/Sdk/AdwareSdk.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
           <option name="url" value="http://190.1.1.40" />
-          <option name="userName" value="root" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://190.1.1.40/sdk/nicrolaunchwork.git" />
-          <option name="userName" value="" />
+          <option name="userName" value="yongdong.lu" />
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/AndroidStudioProjects" />
   </component>
   <component name="Vcs.Log.App.Settings">
-    <option name="COMPACT_REFERENCES_VIEW" value="false" />
     <option name="SHOW_TAG_NAMES" value="true" />
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="1" />
-        <option value="2" />
-        <option value="3" />
-      </list>
-    </option>
+    <option name="SHOW_CHANGES_FROM_PARENTS" value="true" />
   </component>
 </application>

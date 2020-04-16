@@ -1,0 +1,14 @@
+<templateSet group="user">
+  <template name="singleTon" value="private static class SingleTonHolder {&#10;    private static final $class$ INSTANCE = new $class$();&#10;}&#10;public static $class$ getInstance() {&#10;    return SingleTonHolder.INSTANCE;&#10;}&#10;private $class$() {&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="author" value="/**&#10; * @author luke.lu&#10; * @date $date$&#10; */" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

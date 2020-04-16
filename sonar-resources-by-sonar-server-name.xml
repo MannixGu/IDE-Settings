@@ -2,12 +2,142 @@
   <component name="sonar-resources-application-component">
     <option name="sonarResourcesBySonarServerName">
       <map>
-        <entry key="sonar">
+        <entry key="Sonarqube">
           <value>
             <list>
               <Resource>
+                <option name="key" value="BasicTrackerTool" />
+                <option name="name" value="BasicTrackerTool" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
                 <option name="key" value="BasicWork" />
                 <option name="name" value="BasicWork" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="ClientTemplate" />
+                <option name="name" value="ClientTemplate" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="FlyBearPluginWork" />
+                <option name="name" value="FlyBearPluginWork" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="guuidea-cloud-server" />
+                <option name="name" value="Guuidea-Cloud-Server" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="Guwa" />
+                <option name="name" value="Guwa" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="NicroLaunchWork" />
+                <option name="name" value="NicroLaunchWork" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="SdkMultiWork" />
+                <option name="name" value="SdkMultiWork" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="adwaresdk" />
+                <option name="name" value="adwaresdk" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="basicwork" />
+                <option name="name" value="basicwork" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="cloudautomationwork" />
+                <option name="name" value="cloudautomationwork" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="data-center-python" />
+                <option name="name" value="data-center-python" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="fast-cms" />
+                <option name="name" value="fast-cms" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="joy-ads-cmp-abroad" />
+                <option name="name" value="joy-ads-cmp-abroad" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="joy-proxy-parent" />
+                <option name="name" value="joy-proxy-parent" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="nicrosdkwork" />
+                <option name="name" value="nicrosdkwork" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="sdklaunchwork" />
+                <option name="name" value="sdklaunchwork" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="test-joy-ads" />
+                <option name="name" value="test-joy-ads" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="test-joy-ads-abroad" />
+                <option name="name" value="test-joy-ads-abroad" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="test-joy-ads-ccs" />
+                <option name="name" value="test-joy-ads-ccs" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="test-joy-ads-cmp" />
+                <option name="name" value="test-joy-ads-cmp" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="test-joy-ads-cmp-abroad" />
+                <option name="name" value="test-joy-ads-cmp-abroad" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="test-joy-ads-cmp-common" />
+                <option name="name" value="test-joy-ads-cmp-common" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="test-joy-ads-common" />
+                <option name="name" value="test-joy-ads-common" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="test-joy-ads-gray-update" />
+                <option name="name" value="test-joy-ads-gray-update" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="test-joy-ads-statis-cms" />
+                <option name="name" value="test-joy-ads-statis-cms" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="test-joy-download-shell" />
+                <option name="name" value="test-joy-download-shell" />
                 <option name="qualifier" value="TRK" />
               </Resource>
             </list>
