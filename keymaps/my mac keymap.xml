@@ -64,6 +64,9 @@
     <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="ctrl meta u" />
   </action>
+  <action id="FileChooser.GotoJDK">
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta o" />
   </action>
@@ -99,6 +102,9 @@
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="ctrl alt o" />
     <keyboard-shortcut first-keystroke="shift ctrl i" />
+  </action>
+  <action id="QuickList.actions">
+    <keyboard-shortcut first-keystroke="alt q" />
   </action>
   <action id="QuickTranslate">
     <keyboard-shortcut first-keystroke="ctrl meta o" />

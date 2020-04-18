@@ -1,1 +1,10 @@
-<list display="actions" description="custom actions" />
+<list display="actions" description="custom actions">
+  <action id="InspectCode" />
+  <action id="QuickList.$Separator$" />
+  <action id="CallHierarchy" />
+  <action id="TypeHierarchy" />
+  <action id="QuickList.$Separator$" />
+  <action id="CheckinProject" />
+  <action id="Vcs.Push" />
+  <action id="Git.Fetch" />
+</list>
