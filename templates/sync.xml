@@ -112,7 +112,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="test" value="@Test&#10;public void $method$(){&#10;&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="test" value="@Test&#10;public void $method$(){&#10;&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
