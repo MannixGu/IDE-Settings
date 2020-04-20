@@ -11,6 +11,11 @@
                 <option name="qualifier" value="TRK" />
               </Resource>
               <Resource>
+                <option name="key" value="trackwork" />
+                <option name="name" value="BasicTrackerTool" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
                 <option name="key" value="BasicWork" />
                 <option name="name" value="BasicWork" />
                 <option name="qualifier" value="TRK" />
@@ -46,6 +51,21 @@
                 <option name="qualifier" value="TRK" />
               </Resource>
               <Resource>
+                <option name="key" value="TESTADSSEARCH" />
+                <option name="name" value="TESTADSSEARCH" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="TESTHotWord" />
+                <option name="name" value="TESTHotWord" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="Test-Demo" />
+                <option name="name" value="Test-Demo" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
                 <option name="key" value="adwaresdk" />
                 <option name="name" value="adwaresdk" />
                 <option name="qualifier" value="TRK" />
@@ -76,8 +96,8 @@
                 <option name="qualifier" value="TRK" />
               </Resource>
               <Resource>
-                <option name="key" value="joy-proxy-parent" />
-                <option name="name" value="joy-proxy-parent" />
+                <option name="key" value="test1-joy-ads-crm" />
+                <option name="name" value="joy-ads-crm" />
                 <option name="qualifier" value="TRK" />
               </Resource>
               <Resource>
@@ -86,8 +106,18 @@
                 <option name="qualifier" value="TRK" />
               </Resource>
               <Resource>
-                <option name="key" value="sdklaunchwork" />
-                <option name="name" value="sdklaunchwork" />
+                <option name="key" value="outsdkresearch" />
+                <option name="name" value="outsdkresearch" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="SdkLaunchWork" />
+                <option name="name" value="sdklaunchWork" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="technologywork" />
+                <option name="name" value="technologywork" />
                 <option name="qualifier" value="TRK" />
               </Resource>
               <Resource>
