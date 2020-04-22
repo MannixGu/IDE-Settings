@@ -133,4 +133,18 @@
       <option name="GROOVY" value="true" />
     </context>
   </template>
+  <template name="rstr" value="new String[] {$VALUE$}$INDEX$$END$" toReformat="false" toShortenFQNames="true">
+    <variable name="INDEX" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="groovyScript(&quot;def strs = ['duo', 'tempor', 'eirmod', 'invidunt', 'amet', 'et', 'dolore', 'aliquyam', 'at', 'takimata', 'Diam', 'elitr', 'invidunt', 'sed', 'est', 'ipsum', 'vero', 'amet', 'consetetur', 'Ea', 'rebum', 'rebum', 'takimata', 'lorem', 'duo,', 'et', 'ea', 'diam', 'labore', 'magna', 'aliquyam', 'eos', 'magna', 'Diam', 'eirmod', 'voluptua', 'ipsum', 'accusam', 'eirmod', 'dolor', 'sed', 'diam', 'diam,', 'ipsum', 'eos', 'duo', 'clita', 'erat', 'voluptua', 'magna', 'takimata', 'eos', 'Invidunt', 'sit', 'sit', 'dolore', 'sit', 'nonumy', 'consetetur', 'dolore', 'dolor', 'Et', 'dolor', 'elitr', 'ipsum', 'nonumy,', 'invidunt', 'sanctus', 'diam', 'sed', 'tempor', 'dolores', 'amet', 'sed', 'Sit', 'eirmod', 'ipsum', 'ut', 'at', 'et', 'Amet', 'voluptua', 'sanctus', 'dolore', 'aliquyam', 'clita', 'Erat', 'sed', 'at', 'tempor', 'consetetur', 'lorem', 'sed,', 'lorem', 'dolor', 'dolor', 'aliquyam', 'takimata', 'justo', 'sed', 'et,', 'erat', 'stet', 'clita', 'sanctus', 'justo', 'dolore', 'lorem', 'clita', 'amet', 'tempor', 'Dolor', 'sit', 'sea', 'et', 'erat', 'invidunt', 'Sanctus', 'ea', 'eos', 'aliquyam', 'dolor', 'magna', 'et,', 'sit', 'sed', 'nonumy', 'magna', 'sit', 'consetetur,', 'dolor', 'diam', 'dolore', 'no', 'dolore', 'justo', 'no', 'eos,', 'dolores', 'amet', 'lorem', 'vero', 'sanctus', 'et', 'ea', 'Sadipscing', 'ut', 'duo', 'voluptua', 'kasd', 'Clita', 'amet', 'sed', 'elitr', 'eirmod', 'ipsum', 'invidunt', 'amet', 'Ipsum', 'nonumy', 'dolor', 'amet', 'kasd', 'ipsum', 'dolor,', 'sanctus', 'sadipscing', 'clita', 'justo', 'no', 'Voluptua', 'ipsum', 'sadipscing', 'lorem', 'et', 'voluptua', 'Clita', 'tempor', 'eirmod']; Random random = new Random(); StringBuilder builder = new StringBuilder(); builder.append('\&quot;' + strs[random.nextInt(strs.size())] + '\&quot;'); for (int i = 0; i &lt; Integer.parseInt(_1); i++) {     builder.append(',\&quot;' + strs[random.nextInt(strs.size())] + '\&quot;'); }; builder.toString();&quot;,INDEX)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="rint" value="new int[]{$VALUE$}$INDEX$$END$" toReformat="false" toShortenFQNames="true">
+    <variable name="INDEX" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="groovyScript(&quot;Random random = new Random(); StringBuilder builder = new StringBuilder(); builder.append(random.nextInt()); for (int i = 0; i &lt; Integer.parseInt(_1); i++) {     builder.append(',' + random.nextInt()); }; builder.toString();&quot;,INDEX)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
