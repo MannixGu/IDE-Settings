@@ -11,4 +11,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="tttt" value="$array$" toReformat="false" toShortenFQNames="true">
+    <variable name="array" expression="arrayVariable()" defaultValue="" alwaysStopAt="true" />
+  </template>
 </templateSet>
