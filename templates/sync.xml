@@ -134,7 +134,7 @@
     </context>
   </template>
   <template name="rstr" value="new String[] {$VALUE$}$END$" toReformat="false" toShortenFQNames="true">
-    <variable name="VALUE" expression="groovyScript(&quot;'test'&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="groovyScript(&quot;def strs = ['tsjjjs', 'tsjjjsdd', 'tsjjjsdd']; Random random = new Random(); StringBuilder builder = new StringBuilder(); builder.append('\&quot;' + strs[random.nextInt(strs.size())] + '\&quot;'); for (int i = 0; i &lt; 5; i++) {     builder.append(',\&quot;' + strs[random.nextInt(strs.size())] + '\&quot;'); }; builder.toString();&quot;)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
