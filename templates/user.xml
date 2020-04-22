@@ -11,7 +11,11 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="tttt" value="$array$" toReformat="false" toShortenFQNames="true">
-    <variable name="array" expression="arrayVariable()" defaultValue="" alwaysStopAt="true" />
+  <template name="tttt" value="String var = $var$$END$&#10;String tt = $tt$" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="tt" expression="underscoresToSpaces(var)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
   </template>
 </templateSet>
