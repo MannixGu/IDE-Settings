@@ -6,7 +6,7 @@
           <value>
             <list>
               <Resource>
-                <option name="key" value="BasicTrackerTool" />
+                <option name="key" value="trackwork" />
                 <option name="name" value="BasicTrackerTool" />
                 <option name="qualifier" value="TRK" />
               </Resource>
@@ -26,11 +26,6 @@
                 <option name="qualifier" value="TRK" />
               </Resource>
               <Resource>
-                <option name="key" value="guuidea-cloud-server" />
-                <option name="name" value="Guuidea-Cloud-Server" />
-                <option name="qualifier" value="TRK" />
-              </Resource>
-              <Resource>
                 <option name="key" value="Guwa" />
                 <option name="name" value="Guwa" />
                 <option name="qualifier" value="TRK" />
@@ -41,23 +36,23 @@
                 <option name="qualifier" value="TRK" />
               </Resource>
               <Resource>
-                <option name="key" value="SdkMultiWork" />
-                <option name="name" value="SdkMultiWork" />
+                <option name="key" value="TESTADSSEARCH" />
+                <option name="name" value="TESTADSSEARCH" />
                 <option name="qualifier" value="TRK" />
               </Resource>
               <Resource>
-                <option name="key" value="adwaresdk" />
-                <option name="name" value="adwaresdk" />
+                <option name="key" value="TESTHotWord" />
+                <option name="name" value="TESTHotWord" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="Test-Demo" />
+                <option name="name" value="Test-Demo" />
                 <option name="qualifier" value="TRK" />
               </Resource>
               <Resource>
                 <option name="key" value="basicwork" />
                 <option name="name" value="basicwork" />
-                <option name="qualifier" value="TRK" />
-              </Resource>
-              <Resource>
-                <option name="key" value="cloudautomationwork" />
-                <option name="name" value="cloudautomationwork" />
                 <option name="qualifier" value="TRK" />
               </Resource>
               <Resource>
@@ -76,8 +71,8 @@
                 <option name="qualifier" value="TRK" />
               </Resource>
               <Resource>
-                <option name="key" value="joy-proxy-parent" />
-                <option name="name" value="joy-proxy-parent" />
+                <option name="key" value="test1-joy-ads-crm" />
+                <option name="name" value="joy-ads-crm" />
                 <option name="qualifier" value="TRK" />
               </Resource>
               <Resource>
@@ -86,8 +81,8 @@
                 <option name="qualifier" value="TRK" />
               </Resource>
               <Resource>
-                <option name="key" value="sdklaunchwork" />
-                <option name="name" value="sdklaunchwork" />
+                <option name="key" value="SdkLaunchWork" />
+                <option name="name" value="sdklaunchWork" />
                 <option name="qualifier" value="TRK" />
               </Resource>
               <Resource>
