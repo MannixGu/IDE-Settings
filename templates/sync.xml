@@ -133,4 +133,10 @@
       <option name="GROOVY" value="true" />
     </context>
   </template>
+  <template name="rstr" value="new String[] {$VALUE$}$END$" toReformat="false" toShortenFQNames="true">
+    <variable name="VALUE" expression="groovyScript(&quot;'test'&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
