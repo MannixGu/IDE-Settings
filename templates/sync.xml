@@ -112,12 +112,6 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="test" value="@Test&#10;public void $method$(){&#10;&#10;}" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_CODE" value="true" />
-    </context>
-  </template>
   <template name="createe" value="class $name$Extension implements Configurable&lt; $name$Extension&gt;&#10;{&#10;    private Project project;&#10;&#10;    Project getProject()&#10;    {&#10;        return project&#10;    }&#10;    &#10;    $name$Extension(Project project)&#10;    {&#10;        this.project = project&#10;    }&#10;&#10;    @Override&#10;    $name$Extension configure(Closure cl)&#10;    {&#10;        cl.delegate = this&#10;        cl.call(this)&#10;        // todo things &#10;        $END$&#10;        return this&#10;    }&#10;}&#10;&#10;project.extensions.create(&quot;$pname$&quot;, $name$Extension.class, project)" description="create gradle Extension" toReformat="false" toShortenFQNames="false">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="pname" expression="" defaultValue="" alwaysStopAt="true" />
