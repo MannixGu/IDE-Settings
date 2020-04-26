@@ -9,6 +9,9 @@
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
   <action id="OverrideMethods" />
   <action id="UpdateRunningApplication" />
   <action id="android.deploy.ApplyChanges">
