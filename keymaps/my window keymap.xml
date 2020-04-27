@@ -9,8 +9,20 @@
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
+  <action id="FindBugs.ActiveChangeListAction" />
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
+  <action id="Git.Fetch">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift alt a" />
+  </action>
   <action id="OverrideMethods" />
   <action id="UpdateRunningApplication" />
+  <action id="Vcs.Log.ShowAllAffected" />
+  <action id="VcsHistory.ShowAllAffected" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl f10" />
   </action>

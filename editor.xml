@@ -8,8 +8,8 @@
   </component>
   <component name="TodoConfiguration">
     <pattern pattern="\btodo\b.*" />
-    <pattern case-sensitive="true" pattern="\bfixme\b.*" />
-    <pattern case-sensitive="true" pattern="\btest\b.*" />
-    <pattern pattern="\bnote\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+    <pattern pattern="\bmtest\b.*" />
+    <pattern pattern="\bmnote\b.*" />
   </component>
 </application>
