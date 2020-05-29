@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="webp" type="Image" />
       <mapping pattern="testDex" type="JAVA" />
       <mapping pattern="frida_sh" type="PLAIN_TEXT" />
       <mapping pattern="xposed_init" type="PLAIN_TEXT" />
@@ -10,21 +11,21 @@
       <mapping pattern="Web Data" type="PLAIN_TEXT" />
       <mapping pattern="python" type="PLAIN_TEXT" />
       <mapping pattern="Cookies" type="PLAIN_TEXT" />
-      <mapping pattern="Web Data-journal" type="PLAIN_TEXT" />
       <mapping pattern="core" type="PLAIN_TEXT" />
       <mapping pattern="testDex.java" type="PLAIN_TEXT" />
-      <mapping pattern="frida_server" type="PLAIN_TEXT" />
       <mapping pattern="pyToJava" type="PLAIN_TEXT" />
+      <mapping pattern="frida_server" type="PLAIN_TEXT" />
+      <mapping pattern="Web Data-journal" type="PLAIN_TEXT" />
       <mapping ext="cg" type="PLAIN_TEXT" />
-      <mapping ext="graldle" type="PLAIN_TEXT" />
       <mapping ext="chche" type="PLAIN_TEXT" />
       <mapping ext="cfg" type="PLAIN_TEXT" />
       <mapping ext="cg1" type="PLAIN_TEXT" />
+      <mapping ext="graldle" type="PLAIN_TEXT" />
       <mapping ext="bin" type="PLAIN_TEXT" />
-      <mapping ext="events" type="PLAIN_TEXT" />
       <mapping ext="templete" type="PLAIN_TEXT" />
-      <mapping ext="ldb" type="PLAIN_TEXT" />
       <mapping ext="exec" type="PLAIN_TEXT" />
+      <mapping ext="ldb" type="PLAIN_TEXT" />
+      <mapping ext="events" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
