@@ -1,8 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
-      <item value="add Base Pedometer Listener" />
       <item value="TYPE STEP DETECTOR" />
+      <item value="add Base Pedometer Listener" />
       <item value="All flavors must now belong to a named flavor dimension." />
       <item value="Plugin Server" />
       <item value="Approve" />
@@ -18,7 +18,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="17" />
-        <entry key="ENGLISH" value="17" />
+        <entry key="ENGLISH" value="18" />
       </map>
     </option>
   </component>
