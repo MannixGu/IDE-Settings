@@ -14,9 +14,13 @@
           <option name="url" value="https://github.com/Guojiankai/JiBu.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://190.1.1.40/sdk/nicrosdkwork.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\AndroidStudioProjects" />
+    <option name="cloneParentDir" value="D:\AndroidStudioProjects\190712-NicroSdk" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="SHOW_TAG_NAMES" value="true" />
