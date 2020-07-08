@@ -30,9 +30,13 @@
           <option name="url" value="http://190.1.1.40/sdk/sdklaunchwork.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://190.1.1.40/root/sdkmultiwork.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\AndroidStudioProjects\190601-Download" />
+    <option name="cloneParentDir" value="D:\AndroidStudioProjects\200306-Proguard" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="SHOW_TAG_NAMES" value="true" />
