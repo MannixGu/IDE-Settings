@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="No Network Security Config specified, using platform default" />
       <item value="Restriction" />
       <item value="Restrict" />
       <item value="inspect" />
@@ -42,7 +43,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="37" />
-        <entry key="ENGLISH" value="37" />
+        <entry key="ENGLISH" value="38" />
       </map>
     </option>
   </component>
