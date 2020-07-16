@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="escapd" />
+      <item value="there we escaped the inner block" />
+      <item value="phew" />
       <item value="An ordered list of ABIs supported by this device. The most preferred ABI is the first * element in the list." />
       <item value="deprecated" />
       <item value="No Network Security Config specified, using platform default" />
@@ -44,7 +47,7 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="39" />
+        <entry key="CHINESE" value="40" />
         <entry key="ENGLISH" value="40" />
       </map>
     </option>
