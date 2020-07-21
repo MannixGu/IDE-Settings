@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Normal cache usage mode. Use with {@link #setCacheMode}. * * @deprecated This value is obsolete, as from API level * {@link android.os.Build.VERSION_CODES#HONEYCOMB} and onwards it has the * same effect as {@link #LOAD_DEFAULT}." />
+      <item value="Use cached resources when they are available, even if they have expired. * Otherwise load resources from the network. * Use with {@link #setCacheMode}." />
       <item value="get Touch Slop" />
       <item value="Equivalent to * {@link #convert(long, TimeUnit) MILLISECONDS.convert(duration, this)}. * @param duration the duration * @return the converted duration, * or {@code Long.MIN_VALUE} if conversion would negatively * overflow, or {@code Long.MAX_VALUE} if it would positively overflow." />
       <item value="escapd" />
@@ -49,8 +51,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="41" />
-        <entry key="ENGLISH" value="42" />
+        <entry key="CHINESE" value="43" />
+        <entry key="ENGLISH" value="44" />
       </map>
     </option>
   </component>
