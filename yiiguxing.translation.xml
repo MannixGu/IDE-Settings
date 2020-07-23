@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0. Use '--warning-mode all' to show the individual deprecation warnings." />
       <item value="Normal cache usage mode. Use with {@link #setCacheMode}. * * @deprecated This value is obsolete, as from API level * {@link android.os.Build.VERSION_CODES#HONEYCOMB} and onwards it has the * same effect as {@link #LOAD_DEFAULT}." />
       <item value="Use cached resources when they are available, even if they have expired. * Otherwise load resources from the network. * Use with {@link #setCacheMode}." />
       <item value="get Touch Slop" />
@@ -51,8 +52,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="43" />
-        <entry key="ENGLISH" value="44" />
+        <entry key="CHINESE" value="44" />
+        <entry key="ENGLISH" value="45" />
       </map>
     </option>
   </component>
