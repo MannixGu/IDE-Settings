@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The length of the major axis of an ellipse that describes the size of the approaching tool." />
+      <item value="A normalized value that describes the approximate size of the pointer touch area in relation to the maximum detectable size of the device." />
+      <item value="This mask is set if the device woke because of this key event." />
       <item value="Splits a motion event such that it includes only a subset of pointer ids." />
       <item value="display Id" />
       <item value="contact" />
@@ -8,7 +11,6 @@
       <item value="component" />
       <item value="The X component of the pointer movement." />
       <item value="axis" />
-      <item value="The length of the major axis of an ellipse that describes the size of the approaching tool." />
       <item value="approaching" />
       <item value="approximate" />
       <item value="orientation" />
@@ -49,13 +51,11 @@
       <item value="Track" />
       <item value="ss Track Click" />
       <item value="Tertiary" />
-      <item value="Tertiary button (middle mouse button)" />
-      <item value="/** * When {@link #FLAG_DIM_BEHIND} is set, this is the amount of dimming * to apply. Range is from 1.0 for completely opaque to 0.0 for no * dim." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="62" />
-        <entry key="ENGLISH" value="63" />
+        <entry key="CHINESE" value="65" />
+        <entry key="ENGLISH" value="66" />
       </map>
     </option>
   </component>
