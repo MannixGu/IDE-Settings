@@ -1,10 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="* Adds all of the movement samples of the specified event to this one if * it is compatible. To be compatible, the event must have the same device id, * source, action, flags, pointer count, pointer properties. * * Only applies to {@link #ACTION_MOVE} or {@link #ACTION_HOVER_MOVE} events. * * @param event The event whose movements samples should be added to this one * if possible. * @return True if batching was performed or false if batching was not possible. * @hide */" />
+      <item value="Splits a motion event such that it includes only a subset of pointer ids." />
       <item value="The length of the major axis of an ellipse that describes the size of the approaching tool." />
       <item value="A normalized value that describes the approximate size of the pointer touch area in relation to the maximum detectable size of the device." />
       <item value="This mask is set if the device woke because of this key event." />
-      <item value="Splits a motion event such that it includes only a subset of pointer ids." />
       <item value="display Id" />
       <item value="contact" />
       <item value="The length of the major axis of an ellipse that describes the touch area at the point of contact." />
@@ -50,12 +51,11 @@
       <item value="* Pauses any extra processing associated with this WebView and its * associated DOM, plugins, JavaScript etc. For example, if this WebView is * taken offscreen, this could be called to reduce unnecessary CPU or * network traffic. When this WebView is again &quot;active&quot;, call onResume(). * Note that this differs from pauseTimers(), which affects all WebViews." />
       <item value="Track" />
       <item value="ss Track Click" />
-      <item value="Tertiary" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="65" />
-        <entry key="ENGLISH" value="66" />
+        <entry key="CHINESE" value="67" />
+        <entry key="ENGLISH" value="68" />
       </map>
     </option>
   </component>
