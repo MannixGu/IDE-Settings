@@ -1,6 +1,20 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Splits a motion event such that it includes only a subset of pointer ids." />
+      <item value="display Id" />
+      <item value="contact" />
+      <item value="The length of the major axis of an ellipse that describes the touch area at the point of contact." />
+      <item value="component" />
+      <item value="The X component of the pointer movement." />
+      <item value="axis" />
+      <item value="The length of the major axis of an ellipse that describes the size of the approaching tool." />
+      <item value="approaching" />
+      <item value="approximate" />
+      <item value="orientation" />
+      <item value="A normalized value that describes the pressure applied to the device by a finger or other tool." />
+      <item value="The orientation of the touch area and tool area in radians clockwise from vertical" />
+      <item value="radians clockwise" />
       <item value="nanotime" />
       <item value="down Time Nanos" />
       <item value="* @param deltaX Amount to add to the current X coordinate of the event. * @param deltaY Amount to add to the current Y coordinate of the event." />
@@ -37,25 +51,11 @@
       <item value="Tertiary" />
       <item value="Tertiary button (middle mouse button)" />
       <item value="/** * When {@link #FLAG_DIM_BEHIND} is set, this is the amount of dimming * to apply. Range is from 1.0 for completely opaque to 0.0 for no * dim." />
-      <item value="An app can use this method to check if it is currently allowed to draw on top of other * apps. In order to be allowed to do so, an app must first declare the * {@link android.Manifest.permission#SYSTEM_ALERT_WINDOW} permission in its manifest. If it * is currently disallowed, it can prompt the user to grant it this capability through a * management UI by sending an Intent with action * {@link android.provider.Settings#ACTION_MANAGE_OVERLAY_PERMISSION}. * * @param context A context * @return true if the calling app can draw on top of other apps, false otherwise." />
-      <item value="Drag Algorithm" />
-      <item value="TYPE STEP DETECTOR" />
-      <item value="add Base Pedometer Listener" />
-      <item value="All flavors must now belong to a named flavor dimension." />
-      <item value="Plugin Server" />
-      <item value="Approve" />
-      <item value="only run in root project" />
-      <item value="interface" />
-      <item value="String describing the technology of the current battery" />
-      <item value="plugged" />
-      <item value="integer containing the current battery temperature" />
-      <item value="whether or not rule violations are to be displayed on the console." />
-      <item value="XOR Security" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="47" />
-        <entry key="ENGLISH" value="47" />
+        <entry key="CHINESE" value="62" />
+        <entry key="ENGLISH" value="63" />
       </map>
     </option>
   </component>
