@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="retrievewindow" />
+      <item value="retrieve" />
+      <item value="retrueve" />
       <item value="view" />
       <item value="permision" />
       <item value="single Partner Count" />
@@ -48,9 +51,6 @@
       <item value="* Implemented by objects that want to handle cases where a thread is being * terminated by an uncaught exception. Upon such termination, the handler * is notified of the terminating thread and causal exception. If there is * no explicit handler set then the thread's group is the default handler." />
       <item value="raw Screen Height" />
       <item value="reserved" />
-      <item value="* Sets whether JavaScript running in the context of a file scheme URL * should be allowed to access content from other file scheme URLs. To * enable the most restrictive, and therefore secure policy, this setting * should be disabled. Note that the value of this setting is ignored if * the value of {@link #getAllowUniversalAccessFromFileURLs} is true. * Note too, that this setting affects only JavaScript access to file scheme * resources. Other access to such resources, for example, from image HTML * elements, is unaffected. To prevent possible violation of same domain policy * on {@link android.os.Build.VERSION_CODES#ICE_CREAM_SANDWICH} and earlier * devices, you should explicitly set this value to {@code false}. * &lt;p&gt; * The default value is true for API level * {@link android.os.Build.VERSION_CODES#ICE_CREAM_SANDWICH_MR1} and below, * and false for API level {@link android.os.Build.VERSION_CODES#JELLY_BEAN} * and above. *" />
-      <item value="* Sets whether JavaScript running in the context of a file scheme URL * should be allowed to access content from any origin. This includes * access to content from other file scheme URLs. See * {@link #setAllowFileAccessFromFileURLs}. To enable the most restrictive, * and therefore secure policy, this setting should be disabled. * Note that this setting affects only JavaScript access to file scheme * resources. Other access to such resources, for example, from image HTML * elements, is unaffected. To prevent possible violation of same domain policy * on {@link android.os.Build.VERSION_CODES#ICE_CREAM_SANDWICH} and earlier * devices, you should explicitly set this value to {@code false}. * &lt;p&gt; * The default value is true for API level * {@link android.os.Build.VERSION_CODES#ICE_CREAM_SANDWICH_MR1} and below, * and false for API level {@link android.os.Build.VERSION_CODES#JELLY_BEAN} * and above." />
-      <item value="* @param flag whether JavaScript running in the context of a file scheme * URL should be allowed to access content from any origin" />
     </histories>
     <option name="languageScores">
       <map>
