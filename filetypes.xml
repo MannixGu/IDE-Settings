@@ -1,23 +1,21 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="webp" type="Image" />
       <mapping pattern="ex" type="ARCHIVE" />
       <mapping ext="webp" type="Image" />
       <mapping pattern="testDex" type="JAVA" />
       <mapping ext="main.kts" type="Kotlin" />
-      <mapping pattern="frida_sh" type="PLAIN_TEXT" />
       <mapping pattern="pyToJava" type="PLAIN_TEXT" />
       <mapping pattern="xposed_init" type="PLAIN_TEXT" />
-      <mapping pattern="testDex.java" type="PLAIN_TEXT" />
       <mapping pattern="ddd" type="PLAIN_TEXT" />
       <mapping pattern="MANIFEST-000004" type="PLAIN_TEXT" />
       <mapping pattern="frida_sh" type="PLAIN_TEXT" />
       <mapping pattern="Web Data" type="PLAIN_TEXT" />
       <mapping pattern="python" type="PLAIN_TEXT" />
       <mapping pattern="Cookies" type="PLAIN_TEXT" />
-      <mapping pattern="core" type="PLAIN_TEXT" />
       <mapping pattern="hosts" type="PLAIN_TEXT" />
+      <mapping pattern="core" type="PLAIN_TEXT" />
+      <mapping pattern="testDex.java" type="PLAIN_TEXT" />
       <mapping pattern="frida_server" type="PLAIN_TEXT" />
       <mapping pattern="Web Data-journal" type="PLAIN_TEXT" />
       <mapping pattern="Cookies-journal" type="PLAIN_TEXT" />
@@ -37,7 +35,6 @@
       <mapping ext="exec" type="PLAIN_TEXT" />
       <mapping pattern="web" type="Smali" />
       <removed_mapping ext="smali" approved="true" type="Smali" />
-      <mapping ext="smali" type="smali" />
       <removed_mapping ext="smali" approved="true" type="Smali" />
       <removed_mapping ext="smail" approved="true" type="smali" />
     </extensionMap>
