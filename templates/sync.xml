@@ -141,48 +141,4 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="psf" value="public static final $type$ $name$ = $value$;" description="create static final field" toReformat="false" toShortenFQNames="true">
-    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="name" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
-    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_CODE" value="true" />
-    </context>
-  </template>
-  <template name="debug" value="//TODO [debug] by $USER$ added&#10;if (BuildConfig.DEBUG)&#10;{&#10;    $END$&#10;}" description="debug code" toReformat="false" toShortenFQNames="true">
-    <variable name="USER" expression="user()" defaultValue="" alwaysStopAt="false" />
-    <context>
-      <option name="JAVA_CODE" value="true" />
-      <option name="KOTLIN" value="true" />
-    </context>
-  </template>
-  <template name="test" value="//TODO [Test]:$CUR$ at $TIME$ by $USER$ $END$" description="test code" toReformat="false" toShortenFQNames="true">
-    <variable name="CUR" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="TIME" expression="date()" defaultValue="" alwaysStopAt="false" />
-    <variable name="USER" expression="user()" defaultValue="" alwaysStopAt="false" />
-    <context>
-      <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="KOTLIN" value="true" />
-      <option name="KOTLIN_COMMENT" value="false" />
-    </context>
-  </template>
-  <template name="fix" value="//FIXME [Fixme]: $CUR$ at $TIME$ by $USER$ $END$" description="fix code" toReformat="false" toShortenFQNames="true">
-    <variable name="CUR" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="TIME" expression="date()" defaultValue="" alwaysStopAt="false" />
-    <variable name="USER" expression="user()" defaultValue="" alwaysStopAt="false" />
-    <context>
-      <option name="JAVA_CODE" value="true" />
-      <option name="KOTLIN" value="true" />
-    </context>
-  </template>
-  <template name="impl" value="//IMPL [Impl]: $CUR$ at $TIME$ by $USER$ $END$" description="待实现代码" toReformat="false" toShortenFQNames="true">
-    <variable name="CUR" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="TIME" expression="date()" defaultValue="" alwaysStopAt="false" />
-    <variable name="USER" expression="user()" defaultValue="" alwaysStopAt="false" />
-    <context>
-      <option name="JAVA_CODE" value="true" />
-      <option name="KOTLIN" value="true" />
-    </context>
-  </template>
 </templateSet>

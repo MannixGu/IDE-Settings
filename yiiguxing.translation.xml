@@ -1,20 +1,61 @@
 <application>
   <component name="AppStorage">
     <histories>
-      <item value="Approve" />
-      <item value="only run in root project" />
-      <item value="interface" />
-      <item value="String describing the technology of the current battery" />
-      <item value="plugged" />
-      <item value="integer containing the current battery temperature" />
-      <item value="whether or not rule violations are to be displayed on the console." />
-      <item value="XOR Security" />
-      <item value="Byte Array Input Stream" />
+      <item value="retrievewindow" />
+      <item value="retrieve" />
+      <item value="retrueve" />
+      <item value="view" />
+      <item value="permision" />
+      <item value="single Partner Count" />
+      <item value="Run State Recorder" />
+      <item value="* This attribute returns the text content of this node and its * descendants. When it is defined to be &lt;code&gt;null&lt;/code&gt;, setting it * has no effect. On setting, any possible children this node may have * are removed and, if it the new string is not empty or * &lt;code&gt;null&lt;/code&gt;, replaced by a single &lt;code&gt;Text&lt;/code&gt; node * containing the string this attribute is set to. * &lt;br&gt; On getting, no serialization is performed, the returned string * does not contain any markup. No whitespace normalization is performed * and the returned string does not contain the white spaces in element * content (see the attribute * &lt;code&gt;Text.isElementContentWhitespace&lt;/code&gt;). Similarly, on setting, * no parsing is performed either, the input string is taken as pure * textual content. * &lt;br&gt;The string returned is made of the text content of this node * depending on its type, as defined below: * &lt;table border='1' cellpadding='3'&gt; * &lt;tr&gt; * &lt;th&gt;Node type&lt;/th&gt; * &lt;th&gt;Content&lt;/th&gt; * &lt;/tr&gt; * &lt;tr&gt; * &lt;td valign='top' rowspan='1' colspan='1'&gt; * ELEMENT_NODE, ATTRIBUTE_NODE, ENTITY_NODE, ENTITY_REFERENCE_NODE, * DOCUMENT_FRAGMENT_NODE&lt;/td&gt; * &lt;td valign='top' rowspan='1' colspan='1'&gt;concatenation of the &lt;code&gt;textContent&lt;/code&gt; * attribute value of every child node, excluding COMMENT_NODE and * PROCESSING_INSTRUCTION_NODE nodes. This is the empty string if the * node has no children.&lt;/td&gt; * &lt;/tr&gt; * &lt;tr&gt; * &lt;td valign='top' rowspan='1' colspan='1'&gt;TEXT_NODE, CDATA_SECTION_NODE, COMMENT_NODE, * PROCESSING_INSTRUCTION_NODE&lt;/td&gt; * &lt;td valign='top' rowspan='1' colspan='1'&gt;&lt;code&gt;nodeValue&lt;/code&gt;&lt;/td&gt; * &lt;/tr&gt; * &lt;tr&gt; * &lt;td valign='top' rowspan='1' colspan='1'&gt;DOCUMENT_NODE, * DOCUMENT_TYPE_NODE, NOTATION_NODE&lt;/td&gt; * &lt;td valign='top' rowspan='1' colspan='1'&gt;&lt;em&gt;null&lt;/em&gt;&lt;/td&gt; * &lt;/tr&gt;" />
+      <item value="descendants" />
+      <item value="* Adds all of the movement samples of the specified event to this one if * it is compatible. To be compatible, the event must have the same device id, * source, action, flags, pointer count, pointer properties. * * Only applies to {@link #ACTION_MOVE} or {@link #ACTION_HOVER_MOVE} events. * * @param event The event whose movements samples should be added to this one * if possible. * @return True if batching was performed or false if batching was not possible. * @hide */" />
+      <item value="Splits a motion event such that it includes only a subset of pointer ids." />
+      <item value="The length of the major axis of an ellipse that describes the size of the approaching tool." />
+      <item value="A normalized value that describes the approximate size of the pointer touch area in relation to the maximum detectable size of the device." />
+      <item value="This mask is set if the device woke because of this key event." />
+      <item value="display Id" />
+      <item value="contact" />
+      <item value="The length of the major axis of an ellipse that describes the touch area at the point of contact." />
+      <item value="component" />
+      <item value="The X component of the pointer movement." />
+      <item value="axis" />
+      <item value="approaching" />
+      <item value="approximate" />
+      <item value="orientation" />
+      <item value="A normalized value that describes the pressure applied to the device by a finger or other tool." />
+      <item value="The orientation of the touch area and tool area in radians clockwise from vertical" />
+      <item value="radians clockwise" />
+      <item value="nanotime" />
+      <item value="down Time Nanos" />
+      <item value="* @param deltaX Amount to add to the current X coordinate of the event. * @param deltaY Amount to add to the current Y coordinate of the event." />
+      <item value="Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0. Use '--warning-mode all' to show the individual deprecation warnings." />
+      <item value="Normal cache usage mode. Use with {@link #setCacheMode}. * * @deprecated This value is obsolete, as from API level * {@link android.os.Build.VERSION_CODES#HONEYCOMB} and onwards it has the * same effect as {@link #LOAD_DEFAULT}." />
+      <item value="Use cached resources when they are available, even if they have expired. * Otherwise load resources from the network. * Use with {@link #setCacheMode}." />
+      <item value="get Touch Slop" />
+      <item value="Equivalent to * {@link #convert(long, TimeUnit) MILLISECONDS.convert(duration, this)}. * @param duration the duration * @return the converted duration, * or {@code Long.MIN_VALUE} if conversion would negatively * overflow, or {@code Long.MAX_VALUE} if it would positively overflow." />
+      <item value="escapd" />
+      <item value="there we escaped the inner block" />
+      <item value="phew" />
+      <item value="An ordered list of ABIs supported by this device. The most preferred ABI is the first * element in the list." />
+      <item value="deprecated" />
+      <item value="No Network Security Config specified, using platform default" />
+      <item value="Restriction" />
+      <item value="Restrict" />
+      <item value="inspect" />
+      <item value="inspection" />
+      <item value="Attempts to cancel execution of this task. This attempt will * fail if the task has already completed, has already been cancelled, * or could not be cancelled for some other reason. If successful, * and this task has not started when {@code cancel} is called, * this task should never run. If the task has already started, * then the {@code mayInterruptIfRunning} parameter determines * whether the thread executing this task should be interrupted in * an attempt to stop the task. * * &lt;p&gt;After this method returns, subsequent calls to {@link #isDone} will * always return {@code true}. Subsequent calls to {@link #isCancelled} * will always return {@code true} if this method returned {@code true}. * * @param mayInterruptIfRunning {@code true} if the thread executing this * task should be interrupted; otherwise, in-progress tasks are allowed * to complete * @return {@code false} if the task could not be cancelled, * typically because it has already completed normally; * {@code true} otherwise" />
+      <item value="* Attempts to cancel execution of this task. This attempt will * fail if the task has already completed, has already been cancelled, * or could not be cancelled for some other reason. If successful, * and this task has not started when {@code cancel} is called, * this task should never run. If the task has already started, * then the {@code mayInterruptIfRunning} parameter determines * whether the thread executing this task should be interrupted in * an attempt to stop the task. * * &lt;p&gt;After this method returns, subsequent calls to {@link #isDone} will * always return {@code true}. Subsequent calls to {@link #isCancelled} * will always return {@code true} if this method returned {@code true}. * * @param mayInterruptIfRunning {@code true} if the thread executing this * task should be interrupted; otherwise, in-progress tasks are allowed * to complete * @return {@code false} if the task could not be cancelled, * typically because it has already completed normally; * {@code true} otherwise" />
+      <item value="* 1. If fewer than corePoolSize threads are running, try to * start a new thread with the given command as its first * task. The call to addWorker atomically checks runState and * workerCount, and so prevents false alarms that would add * threads when it shouldn't, by returning false. * * 2. If a task can be successfully queued, then we still need * to double-check whether we should have added a thread * (because existing ones died since last checking) or that * the pool shut down since entry into this method. So we * recheck state and if necessary roll back the enqueuing if * stopped, or start a new thread if there are none. * * 3. If we cannot queue task, then we try to add a new * thread. If it fails, we know we are shut down or saturated * and so reject the task." />
+      <item value="* Implemented by objects that want to handle cases where a thread is being * terminated by an uncaught exception. Upon such termination, the handler * is notified of the terminating thread and causal exception. If there is * no explicit handler set then the thread's group is the default handler." />
+      <item value="raw Screen Height" />
+      <item value="reserved" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="12" />
-        <entry key="ENGLISH" value="13" />
+        <entry key="CHINESE" value="72" />
+        <entry key="ENGLISH" value="72" />
       </map>
     </option>
   </component>

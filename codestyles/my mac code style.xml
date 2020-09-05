@@ -26,9 +26,9 @@
       <emptyLine />
     </value>
   </option>
-  <JetCodeStyleSettings>
-    <option name="LBRACE_ON_NEXT_LINE" value="true" />
-  </JetCodeStyleSettings>
+  <AndroidXmlCodeStyleSettings>
+    <option name="ARRANGEMENT_SETTINGS_MIGRATED_TO_191" value="true" />
+  </AndroidXmlCodeStyleSettings>
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>

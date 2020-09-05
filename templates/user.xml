@@ -1,6 +1,11 @@
 <templateSet group="user">
-  <template name="author" value="/**&#10; * @author $user$&#10; * @date $date$&#10; */" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="user" expression="user()" defaultValue="" alwaysStopAt="true" />
+  <template name="singleTon" value="private static class SingleTonHolder {&#10;    private static final $class$ INSTANCE = new $class$();&#10;}&#10;public static $class$ getInstance() {&#10;    return SingleTonHolder.INSTANCE;&#10;}&#10;private $class$() {&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="author" value="/**&#10; * @author luke.lu&#10; * @date $date$&#10; */" description="" toReformat="false" toShortenFQNames="true">
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
@@ -15,24 +20,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="ttest" value="@Test&#10;public void test$method$(){&#10;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="ttest" value="@Test&#10;public void $method$(){&#10;&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_CODE" value="true" />
-    </context>
-  </template>
-  <template name="ass" value="Assert.assertEquals($expect$,$actual$)$END$" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="expect" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="actual" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_CODE" value="true" />
-    </context>
-  </template>
-  <template name="testAsyn" value="final CountDownLatch latch = new CountDownLatch(1);&#10;Thread thread = new Thread(new Runnable(){&#10;     @Override&#10;     public void run() {&#10;        $END$&#10;        latch.countDown();&#10;    }&#10;});&#10;&#10;thread.start();&#10;&#10;try {&#10;    latch.await();&#10;} catch (InterruptedException e) {&#10;    e.printStackTrace();&#10;}&#10;&#10;Assert.assertEquals($expect$, $actual$);" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="expect" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="actual" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_CODE" value="true" />
-    </context>
   </template>
 </templateSet>

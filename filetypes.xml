@@ -1,42 +1,32 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="ex" type="ARCHIVE" />
       <mapping ext="webp" type="Image" />
       <mapping pattern="testDex" type="JAVA" />
-      <mapping ext="main.kts" type="Kotlin" />
-      <mapping pattern="pyToJava" type="PLAIN_TEXT" />
+      <mapping pattern="frida_sh" type="PLAIN_TEXT" />
       <mapping pattern="xposed_init" type="PLAIN_TEXT" />
       <mapping pattern="ddd" type="PLAIN_TEXT" />
       <mapping pattern="MANIFEST-000004" type="PLAIN_TEXT" />
-      <mapping pattern="frida_sh" type="PLAIN_TEXT" />
+      <mapping pattern="Cookies-journal" type="PLAIN_TEXT" />
       <mapping pattern="Web Data" type="PLAIN_TEXT" />
       <mapping pattern="python" type="PLAIN_TEXT" />
       <mapping pattern="Cookies" type="PLAIN_TEXT" />
-      <mapping pattern="hosts" type="PLAIN_TEXT" />
+      <mapping pattern="Web Data-journal" type="PLAIN_TEXT" />
       <mapping pattern="core" type="PLAIN_TEXT" />
       <mapping pattern="testDex.java" type="PLAIN_TEXT" />
       <mapping pattern="frida_server" type="PLAIN_TEXT" />
-      <mapping pattern="Web Data-journal" type="PLAIN_TEXT" />
-      <mapping pattern="Cookies-journal" type="PLAIN_TEXT" />
+      <mapping pattern="pyToJava" type="PLAIN_TEXT" />
       <mapping ext="cg" type="PLAIN_TEXT" />
-      <mapping ext="ogg" type="PLAIN_TEXT" />
-      <mapping ext="graldle" type="PLAIN_TEXT" />
       <mapping ext="chche" type="PLAIN_TEXT" />
-      <mapping ext="sha1" type="PLAIN_TEXT" />
-      <mapping ext="pom" type="PLAIN_TEXT" />
       <mapping ext="cfg" type="PLAIN_TEXT" />
       <mapping ext="cg1" type="PLAIN_TEXT" />
+      <mapping ext="md" type="PLAIN_TEXT" />
+      <mapping ext="graldle" type="PLAIN_TEXT" />
       <mapping ext="bin" type="PLAIN_TEXT" />
-      <mapping ext="events" type="PLAIN_TEXT" />
+      <mapping ext="exec" type="PLAIN_TEXT" />
       <mapping ext="templete" type="PLAIN_TEXT" />
       <mapping ext="ldb" type="PLAIN_TEXT" />
-      <mapping ext="dsp" type="PLAIN_TEXT" />
-      <mapping ext="exec" type="PLAIN_TEXT" />
-      <mapping pattern="web" type="Smali" />
-      <removed_mapping ext="smali" approved="true" type="Smali" />
-      <removed_mapping ext="smali" approved="true" type="Smali" />
-      <removed_mapping ext="smail" approved="true" type="smali" />
+      <mapping ext="events" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>

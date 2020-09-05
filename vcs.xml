@@ -4,31 +4,51 @@
       <list>
         <UrlAndUserName>
           <option name="url" value="http://190.1.1.40" />
-          <option name="userName" value="root" />
+          <option name="userName" value="yongdong.lu" />
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="http://github.com" />
-          <option name="userName" value="214267245@qq.com" />
+          <option name="userName" value="815066422@qq.com" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="http://190.1.1.40/sdk/sdkpluginwork" />
+          <option name="url" value="https://github.com/Guojiankai/JiBu.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="http://190.1.1.40/sdk/sdkpluginwork.git" />
+          <option name="url" value="http://190.1.1.40/sdk/nicrosdkwork.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="https://github.com/moonChenHaohui/ANDROID-MVVM-RSS.git" />
+          <option name="url" value="https://github.com/ChickenHook/RestrictionBypass.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="http://190.1.1.40/sdk/adwaresdk.git" />
+          <option name="url" value="https://github.com/tiann/FreeReflection.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://190.1.1.40/sdk/sdklaunchwork.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://190.1.1.40/root/sdkmultiwork.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://190.1.1.40/sdk/hiddenapiwork.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://190.1.1.40/tool/sdkmakework.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://190.1.1.40/tool/settingsaswork.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="/Volumes/data/projects" />
+    <option name="cloneParentDir" value="D:\AndroidStudioProjects" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="SHOW_TAG_NAMES" value="true" />
@@ -36,8 +56,8 @@
     <option name="COLUMN_ORDER">
       <list>
         <option value="0" />
-        <option value="1" />
         <option value="2" />
+        <option value="1" />
         <option value="3" />
       </list>
     </option>
