@@ -1,0 +1,5 @@
+<application>
+  <component name="preferences.SearchEnginePluginConfig_search_engine">
+    <option name="searchEngine" value="STACKOVERFLOW" />
+  </component>
+</application>

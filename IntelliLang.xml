@@ -1,0 +1,16 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="TEXT" injector-id="java">
+      <display-name>Builder.user (com.fast.data.sql.DataContext)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("user").withParameters("java.lang.String").definedInClass("com.fast.data.sql.DataContext.Builder"))]]></place>
+    </injection>
+    <injection language="RoomSql" injector-id="java">
+      <display-name>Script.value (com.fast.data.sql.as)</display-name>
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("com.fast.data.sql.as.Script")]]></place>
+    </injection>
+    <injection language="MYSQL-SQL" injector-id="java">
+      <display-name>Script.value (com.fast.data.sql.as)</display-name>
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("com.fast.data.sql.as.Script")]]></place>
+    </injection>
+  </component>
+</application>

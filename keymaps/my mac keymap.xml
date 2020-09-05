@@ -1,0 +1,151 @@
+<keymap version="1" name="my mac keymap" parent="Mac OS X 10.5+">
+  <action id="$ShowTranslationDialogAction">
+    <keyboard-shortcut first-keystroke="ctrl meta i" />
+    <keyboard-shortcut first-keystroke="alt 0" />
+  </action>
+  <action id="ActivateBuildToolWindow">
+    <keyboard-shortcut first-keystroke="alt 9" />
+  </action>
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="meta 5" />
+    <keyboard-shortcut first-keystroke="alt 5" />
+  </action>
+  <action id="ActivateGradleConsoleToolWindow">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
+  <action id="ActivateLogcatToolWindow">
+    <keyboard-shortcut first-keystroke="alt back_quote" />
+    <keyboard-shortcut first-keystroke="alt 6" />
+  </action>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="meta 1" />
+    <keyboard-shortcut first-keystroke="alt 1" />
+  </action>
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="meta 4" />
+    <keyboard-shortcut first-keystroke="alt 4" />
+  </action>
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="meta 7" />
+    <keyboard-shortcut first-keystroke="alt 7" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="meta 9" />
+    <keyboard-shortcut first-keystroke="shift meta 9" />
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="ActivityTracker-Popup">
+    <keyboard-shortcut first-keystroke="shift ctrl alt o" />
+  </action>
+  <action id="Android.SyncProject">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
+  <action id="CheckinFiles">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+  <action id="CodotaSearchCrossRefAction">
+    <keyboard-shortcut first-keystroke="alt q" />
+  </action>
+  <action id="Dummytext.ToolsmenuGroup">
+    <keyboard-shortcut first-keystroke="alt x" />
+  </action>
+  <action id="EditSelectWordGroup">
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
+  <action id="Editor ShowTranslationDialogAction">
+    <keyboard-shortcut first-keystroke="alt 0" />
+  </action>
+  <action id="EditorPopupMenuAction">
+    <keyboard-shortcut first-keystroke="alt a" />
+    <keyboard-shortcut first-keystroke="ctrl meta t" />
+  </action>
+  <action id="ExternalTranslation">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="ctrl meta u" />
+  </action>
+  <action id="FileChooser.GotoJDK">
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="meta o" />
+  </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
+  </action>
+  <action id="Git.Fetch">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="Gitflow">
+    <keyboard-shortcut first-keystroke="ctrl alt g" />
+  </action>
+  <action id="GotoBookmark3" />
+  <action id="HelloPopupAction">
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
+  </action>
+  <action id="HelloTextEditorAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt e" />
+  </action>
+  <action id="HelloWorldAction">
+    <keyboard-shortcut first-keystroke="shift alt h" />
+  </action>
+  <action id="JumpToNextChange">
+    <keyboard-shortcut first-keystroke="ctrl meta right" />
+  </action>
+  <action id="MakeGradleModule">
+    <keyboard-shortcut first-keystroke="alt m" />
+  </action>
+  <action id="MyUpperCaseAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt u" />
+  </action>
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="ctrl alt o" />
+    <keyboard-shortcut first-keystroke="shift ctrl i" />
+  </action>
+  <action id="QuickList.actions">
+    <keyboard-shortcut first-keystroke="alt q" />
+  </action>
+  <action id="QuickTranslate">
+    <keyboard-shortcut first-keystroke="ctrl meta o" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta alt l" />
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="Tool_External Tools_code">
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="shift ctrl meta r" />
+  </action>
+  <action id="com.karateca.jstoolbox.toconstructor.GoToConstructorAction">
+    <keyboard-shortcut first-keystroke="ctrl meta g" />
+  </action>
+  <action id="com.karateca.jstoolbox.torelated.GoToViewAction">
+    <keyboard-shortcut first-keystroke="ctrl meta v" />
+  </action>
+  <action id="osmedile.intellij.stringmanip.PopupChoiceAction">
+    <keyboard-shortcut first-keystroke="shift alt m" />
+  </action>
+</keymap>

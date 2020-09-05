@@ -1,0 +1,62 @@
+<application>
+  <component name="VimEditorSettings">
+    <editor>
+      <key-repeat enabled="false" />
+    </editor>
+  </component>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search>
+        <entry>test</entry>
+        <entry>find</entry>
+      </history-search>
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+  <component name="VimKeySettings">
+    <shortcut-conflicts />
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="/Volumes/data/projects/SwitchWork/app/src/main/java/com/top/web/switchwork/MainActivity.java" timestamp="1587526582058">
+        <mark key="'" line="345" column="0" />
+      </file>
+      <file name="/Volumes/data/projects/BasicWork/com-fast/src/main/java/com/fast/Verifier.java" timestamp="1587891284088">
+        <mark key="'" line="53" column="29" />
+      </file>
+      <file name="/Table 'cookies' (Database1)" timestamp="1587891264103">
+        <mark key="[" line="0" column="0" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="345" column="0" filename="/Volumes/data/projects/SwitchWork/app/src/main/java/com/top/web/switchwork/MainActivity.java" />
+      <jump line="53" column="29" filename="/Volumes/data/projects/BasicWork/com-fast/src/main/java/com/fast/Verifier.java" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="/" type="4">
+        <text>find</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search>find</last-search>
+      <last-offset />
+      <last-pattern>find</last-pattern>
+      <last-dir>1</last-dir>
+      <show-last>false</show-last>
+    </search>
+  </component>
+  <component name="VimSettings">
+    <state version="6" enabled="false" />
+    <notifications>
+      <idea-join enabled="false" />
+      <idea-put enabled="false" />
+    </notifications>
+  </component>
+</application>

@@ -1,0 +1,20 @@
+<application>
+  <component name="sonarServers">
+    <option name="beans">
+      <list>
+        <SonarServerConfig>
+          <option name="hostUrl" value="http://190.1.1.241:9000" />
+          <option name="name" value="Sonarqube" />
+          <option name="organization" value="" />
+          <option name="user" value="" />
+        </SonarServerConfig>
+        <SonarServerConfig>
+          <option name="hostUrl" value="http://190.1.1.241:9000/" />
+          <option name="name" value="Sonar" />
+          <option name="organization" value="" />
+          <option name="user" value="" />
+        </SonarServerConfig>
+      </list>
+    </option>
+  </component>
+</application>

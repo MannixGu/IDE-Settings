@@ -1,0 +1,188 @@
+<templateSet group="sync">
+  <template name="cf" value="File $file$ = new File($dir$, &quot;$name$&quot;);&#10;&#10;if (!$file$.exists())&#10;{&#10;    if ($file$.getParentFile() != null &amp;&amp; !$file$.getParentFile().exists())&#10;        $file$.getParentFile().mkdirs();&#10;        &#10;    $file$.createNewFile();&#10;}" description="create file" toReformat="false" toShortenFQNames="true">
+    <variable name="file" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="dir" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="thread" value="Thread $thread$ = new Thread(new Runnable()&#10;        {&#10;            @Override&#10;            public void run()&#10;            {&#10;                $END$&#10;            }&#10;        }, &quot;$name$&quot;);&#10;$thread$.setDaemon(true);&#10;$thread$.start();" description="create daemon thread" toReformat="false" toShortenFQNames="true">
+    <variable name="thread" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="main" value="public static void main(String...args)&#10;{&#10;    $END$&#10;}" description="create main method" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="const" value="static final $type$ $name$ = $value$;$END$" description="create const variable" toReformat="false" toShortenFQNames="true">
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="ins" value="private static class $type$Holder&#10;{&#10;    private static $type$ $name$ = new $type$($END$);&#10;}&#10;&#10;public static $type$ instance()&#10;{&#10;    return $type$Holder.$name$;&#10;}" description="the singleton pattern" toReformat="false" toShortenFQNames="true">
+    <variable name="type" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="sf" value="private $type$ $name$;&#10;&#10;public $type$ $name$()&#10;{&#10;    return $name$;&#10;}&#10;&#10;public void $name$($type$ $name$)&#10;{&#10;    this.$name$ = $name$;&#10;}&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="lis" value="public interface $lname$Listener&#10;{&#10;    void $method$($types$);&#10;}&#10;&#10;private Collection&lt;$lname$Listener&gt; _$name$Listeners = new ArrayList&lt;&gt;();&#10;    &#10;public void add$lname$Listener($lname$Listener listener)&#10;{&#10;     _$name$Listeners.add(listener);&#10;}&#10;&#10;public void remove$lname$Listener($lname$Listener listener)&#10;{&#10;     _$name$Listeners.remove(listener);&#10;}&#10;    &#10;public void notify$lname$($types$)&#10;{&#10;    for ($lname$Listener listener : _$name$Listeners)&#10;    {&#10;        listener.$method$($args$);&#10;    }&#10;}" description="create listeners" toReformat="false" toShortenFQNames="false">
+    <variable name="lname" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="types" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="camelCase(lname)" defaultValue="" alwaysStopAt="false" />
+    <variable name="args" expression="methodParameters()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="hmap" value="Map&lt;$T1$,$T2$&gt; $map$ = new HashMap&lt;&gt;();$END$" description="create hash map" toReformat="false" toShortenFQNames="true">
+    <variable name="T1" expression="&quot;String&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="T2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="map" expression="suggestShortVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="enum" value="public enum $NAME$&#10;{&#10;    $END$;&#10;    &#10;    int value;&#10;    String des;&#10;&#10;    $NAME$(int value, String des)&#10;    {&#10;        this.value = value;&#10;        this.des = des;&#10;    }&#10;&#10;    int value()&#10;    {&#10;        return value;&#10;    }&#10;&#10;    String des()&#10;    {&#10;        return des;&#10;    }&#10;}" description="create enum type (value,des)" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="enumi" value="public enum $NAME$&#10;{&#10;    $END$;&#10;    &#10;    int value;&#10;    &#10;    $NAME$(int value)&#10;    {&#10;        this.value = value;&#10;    }&#10;&#10;    int value()&#10;    {&#10;        return value;&#10;    }&#10;}" description="create enum type (value)" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="rarray" value="int[] $ARRAY$ = new int[$LEN$];&#10;&#10;Random rand = new Random();&#10;&#10;for(int i=0;i&lt;$LEN$;i++)&#10;{&#10;    $ARRAY$[i] = rand.nextInt()$END$;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="ARRAY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LEN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="alist" value="List&lt;$TYPE$&gt; $LIST$ = new ArrayList&lt;&gt;()$END$;" description="create array list" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LIST" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="llist" value="List&lt;$TYPE$&gt; $LIST$ = new LinkedList&lt;&gt;()$END$;" description="create linked list" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LIST" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="li" value="public interface $lname$$Listener$&#10;{&#10;    void $method$($types$);&#10;}&#10;&#10;private $lname$$Listener$ $name$$Listener$;&#10;    &#10;public void set$lname$$Listener$($lname$$Listener$ listener)&#10;{&#10;    this.$name$$Listener$ = listener;&#10;}&#10;" description="create listener" toReformat="false" toShortenFQNames="true">
+    <variable name="lname" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Listener" expression="" defaultValue="&quot;Listener&quot;" alwaysStopAt="true" />
+    <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="types" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="camelCase(lname)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="visit" value="public interface $tree$&#10;{&#10;    $res$ accept($name$Visitor visitor);&#10;}&#10;&#10;public interface $name$Visitor&#10;{&#10;   $res$ visit$end$($tree$ $v$);&#10;}" description="create visit pattern" toReformat="false" toShortenFQNames="true">
+    <variable name="tree" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="res" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="v" expression="camelCase(tree)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="createe" value="class $name$Extension implements Configurable&lt; $name$Extension&gt;&#10;{&#10;    private Project project;&#10;&#10;    Project getProject()&#10;    {&#10;        return project&#10;    }&#10;    &#10;    $name$Extension(Project project)&#10;    {&#10;        this.project = project&#10;    }&#10;&#10;    @Override&#10;    $name$Extension configure(Closure cl)&#10;    {&#10;        cl.delegate = this&#10;        cl.call(this)&#10;        // todo things &#10;        $END$&#10;        return this&#10;    }&#10;}&#10;&#10;project.extensions.create(&quot;$pname$&quot;, $name$Extension.class, project)" description="create gradle Extension" toReformat="false" toShortenFQNames="false">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="pname" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="createn" value="class $name$&#10;{&#10;    private String name&#10;    &#10;    public void setName(String name)&#10;    {&#10;        this.name = name&#10;    }&#10;    &#10;    public String getName()&#10;    {&#10;        return name&#10;    }&#10;}&#10;&#10;&#10;class $name$NamedDomainObjectFactory implements NamedDomainObjectFactory&lt;$name$&gt;&#10;{&#10;    @Override&#10;    $name$ create(String n)&#10;    {&#10;        $name$ $n$ = new $name$()&#10;        $n$ .setName(n)&#10;&#10;        return $n$&#10;    }&#10;}&#10;&#10;NamedDomainObjectContainer&lt;$name$&gt; $ns$ = project.container(NamedDomainObjectContainer.class, new $name$NamedDomainObjectFactory())" description="create gradle NamedDomainObjectFactory" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="n" expression="snakeCase(name)" defaultValue="" alwaysStopAt="true" />
+    <variable name="ns" expression="arrayVariable()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="rstr" value="new String[] {$VALUE$}$INDEX$$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="INDEX" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="groovyScript(&quot;def strs = ['duo', 'tempor', 'eirmod', 'invidunt', 'amet', 'et', 'dolore', 'aliquyam', 'at', 'takimata', 'Diam', 'elitr', 'invidunt', 'sed', 'est', 'ipsum', 'vero', 'amet', 'consetetur', 'Ea', 'rebum', 'rebum', 'takimata', 'lorem', 'duo,', 'et', 'ea', 'diam', 'labore', 'magna', 'aliquyam', 'eos', 'magna', 'Diam', 'eirmod', 'voluptua', 'ipsum', 'accusam', 'eirmod', 'dolor', 'sed', 'diam', 'diam,', 'ipsum', 'eos', 'duo', 'clita', 'erat', 'voluptua', 'magna', 'takimata', 'eos', 'Invidunt', 'sit', 'sit', 'dolore', 'sit', 'nonumy', 'consetetur', 'dolore', 'dolor', 'Et', 'dolor', 'elitr', 'ipsum', 'nonumy,', 'invidunt', 'sanctus', 'diam', 'sed', 'tempor', 'dolores', 'amet', 'sed', 'Sit', 'eirmod', 'ipsum', 'ut', 'at', 'et', 'Amet', 'voluptua', 'sanctus', 'dolore', 'aliquyam', 'clita', 'Erat', 'sed', 'at', 'tempor', 'consetetur', 'lorem', 'sed,', 'lorem', 'dolor', 'dolor', 'aliquyam', 'takimata', 'justo', 'sed', 'et,', 'erat', 'stet', 'clita', 'sanctus', 'justo', 'dolore', 'lorem', 'clita', 'amet', 'tempor', 'Dolor', 'sit', 'sea', 'et', 'erat', 'invidunt', 'Sanctus', 'ea', 'eos', 'aliquyam', 'dolor', 'magna', 'et,', 'sit', 'sed', 'nonumy', 'magna', 'sit', 'consetetur,', 'dolor', 'diam', 'dolore', 'no', 'dolore', 'justo', 'no', 'eos,', 'dolores', 'amet', 'lorem', 'vero', 'sanctus', 'et', 'ea', 'Sadipscing', 'ut', 'duo', 'voluptua', 'kasd', 'Clita', 'amet', 'sed', 'elitr', 'eirmod', 'ipsum', 'invidunt', 'amet', 'Ipsum', 'nonumy', 'dolor', 'amet', 'kasd', 'ipsum', 'dolor,', 'sanctus', 'sadipscing', 'clita', 'justo', 'no', 'Voluptua', 'ipsum', 'sadipscing', 'lorem', 'et', 'voluptua', 'Clita', 'tempor', 'eirmod']; Random random = new Random(); StringBuilder builder = new StringBuilder(); builder.append('\&quot;' + strs[random.nextInt(strs.size())] + '\&quot;'); for (int i = 0; i &lt; Integer.parseInt(_1); i++) {     builder.append(',\&quot;' + strs[random.nextInt(strs.size())] + '\&quot;'); }; builder.toString();&quot;,INDEX)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="rint" value="new int[]{$VALUE$}$INDEX$$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="INDEX" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="groovyScript(&quot;Random random = new Random(); StringBuilder builder = new StringBuilder(); builder.append(random.nextInt()); for (int i = 0; i &lt; Integer.parseInt(_1); i++) {     builder.append(',' + random.nextInt()); }; builder.toString();&quot;,INDEX)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="psf" value="public static final $type$ $name$ = $value$;" description="create static final field" toReformat="false" toShortenFQNames="true">
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="debug" value="//TODO [debug] by $USER$ added&#10;if (BuildConfig.DEBUG)&#10;{&#10;    $END$&#10;}" description="debug code" toReformat="false" toShortenFQNames="true">
+    <variable name="USER" expression="user()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="test" value="//TODO [Test]:$CUR$ at $TIME$ by $USER$ $END$" description="test code" toReformat="false" toShortenFQNames="true">
+    <variable name="CUR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TIME" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="USER" expression="user()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="KOTLIN" value="true" />
+      <option name="KOTLIN_COMMENT" value="false" />
+    </context>
+  </template>
+  <template name="fix" value="//FIXME [Fixme]: $CUR$ at $TIME$ by $USER$ $END$" description="fix code" toReformat="false" toShortenFQNames="true">
+    <variable name="CUR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TIME" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="USER" expression="user()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="impl" value="//IMPL [Impl]: $CUR$ at $TIME$ by $USER$ $END$" description="待实现代码" toReformat="false" toShortenFQNames="true">
+    <variable name="CUR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TIME" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="USER" expression="user()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

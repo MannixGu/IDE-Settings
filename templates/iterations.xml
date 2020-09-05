@@ -1,0 +1,12 @@
+<templateSet group="iterations">
+  <template name="itmp" value="$ITEM_TYPE$ $VAR$ = $map$.entrySet().iterator();&#10;while ($VAR$.hasNext()) {&#10;    $ELEMENT_TYPE$ entry =$CAST$ $VAR$.next();&#10;    $END$&#10;}" description="Iterate elements of java.util.Map" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="map" expression="variableOfType(&quot;java.util.Map&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITEM_TYPE" expression="rightSideType()" defaultValue="&quot;java.util.Iterator&quot;" alwaysStopAt="false" />
+    <variable name="ELEMENT_TYPE" expression="guessElementType(VAR)" defaultValue="" alwaysStopAt="true" />
+    <variable name="CAST" expression="castToLeftSideType()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
