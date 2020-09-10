@@ -2,7 +2,4 @@
   <component name="PostfixTemplates">
     <template id="com.intellij.codeInsight.template.postfix.templates.IntroduceVariablePostfixTemplate#.var" key=".var" provider="builtin.java" builtin="com.intellij.codeInsight.template.postfix.templates.IntroduceVariablePostfixTemplate#.var" />
   </component>
-  <component name="PostfixTemplatesSettings">
-    <option name="shortcut" value="10" />
-  </component>
 </application>
