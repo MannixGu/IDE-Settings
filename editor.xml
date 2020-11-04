@@ -1,0 +1,19 @@
+<application>
+  <component name="CodeInsightSettings">
+    <option name="PARAMETER_INFO_DELAY" value="350" />
+    <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
+  </component>
+  <component name="DefaultFont">
+    <option name="FONT_FAMILY" value="Fira Code" />
+    <option name="USE_LIGATURES" value="true" />
+  </component>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="PREVIEW" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+    <pattern pattern="\bmtest\b.*" />
+    <pattern pattern="\bmnote\b.*" />
+  </component>
+</application>
