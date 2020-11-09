@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="A {@link ImageButton} which supports compatible features on older versions of the platform, * including:" />
       <item value="Nested Scrolling Child 2" />
       <item value="hide Before" />
       <item value="video" />
@@ -50,12 +51,11 @@
       <item value="Restriction" />
       <item value="Restrict" />
       <item value="inspect" />
-      <item value="inspection" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="75" />
-        <entry key="ENGLISH" value="76" />
+        <entry key="CHINESE" value="76" />
+        <entry key="ENGLISH" value="77" />
         <entry key="ARABIC" value="1" />
       </map>
     </option>
