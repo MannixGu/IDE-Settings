@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Removes any ID from the end of the path." />
+      <item value="BUCKET DISPLAY NAME" />
+      <item value="if the specified column type is blob" />
       <item value="save With Burn" />
       <item value="populate" />
       <item value="BEHAVIOR RESUME ONLY CURRENT FRAGMENT" />
@@ -48,14 +51,11 @@
       <item value="Use cached resources when they are available, even if they have expired. * Otherwise load resources from the network. * Use with {@link #setCacheMode}." />
       <item value="get Touch Slop" />
       <item value="Equivalent to * {@link #convert(long, TimeUnit) MILLISECONDS.convert(duration, this)}. * @param duration the duration * @return the converted duration, * or {@code Long.MIN_VALUE} if conversion would negatively * overflow, or {@code Long.MAX_VALUE} if it would positively overflow." />
-      <item value="escapd" />
-      <item value="there we escaped the inner block" />
-      <item value="phew" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="83" />
-        <entry key="ENGLISH" value="84" />
+        <entry key="CHINESE" value="86" />
+        <entry key="ENGLISH" value="87" />
         <entry key="ARABIC" value="1" />
       </map>
     </option>
