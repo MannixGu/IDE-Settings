@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="the fling velocity on the X axis" />
       <item value="Gesture Detector" />
       <item value="on Fling" />
       <item value="compress Quality" />
@@ -50,12 +51,11 @@
       <item value="component" />
       <item value="The X component of the pointer movement." />
       <item value="axis" />
-      <item value="approaching" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="98" />
-        <entry key="ENGLISH" value="99" />
+        <entry key="CHINESE" value="99" />
+        <entry key="ENGLISH" value="100" />
         <entry key="ARABIC" value="1" />
         <entry key="SPANISH" value="2" />
       </map>
