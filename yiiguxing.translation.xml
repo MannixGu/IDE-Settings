@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="magnifier View" />
       <item value="GRAPHIC THICKNESS" />
       <item value="$Switch Map$com$touptek$toupview$Tp Const$GRAPHIC THICKNESS" />
       <item value="btn calib" />
@@ -50,12 +51,11 @@
       <item value="* Adds all of the movement samples of the specified event to this one if * it is compatible. To be compatible, the event must have the same device id, * source, action, flags, pointer count, pointer properties. * * Only applies to {@link #ACTION_MOVE} or {@link #ACTION_HOVER_MOVE} events. * * @param event The event whose movements samples should be added to this one * if possible. * @return True if batching was performed or false if batching was not possible. * @hide */" />
       <item value="Splits a motion event such that it includes only a subset of pointer ids." />
       <item value="The length of the major axis of an ellipse that describes the size of the approaching tool." />
-      <item value="A normalized value that describes the approximate size of the pointer touch area in relation to the maximum detectable size of the device." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="105" />
-        <entry key="ENGLISH" value="106" />
+        <entry key="CHINESE" value="106" />
+        <entry key="ENGLISH" value="107" />
         <entry key="ARABIC" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="SPANISH" value="2" />
