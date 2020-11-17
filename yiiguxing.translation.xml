@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="GRAPHIC THICKNESS" />
+      <item value="$Switch Map$com$touptek$toupview$Tp Const$GRAPHIC THICKNESS" />
       <item value="btn calib" />
       <item value="btn capture" />
       <item value="set Magnifier Show" />
@@ -49,13 +51,11 @@
       <item value="Splits a motion event such that it includes only a subset of pointer ids." />
       <item value="The length of the major axis of an ellipse that describes the size of the approaching tool." />
       <item value="A normalized value that describes the approximate size of the pointer touch area in relation to the maximum detectable size of the device." />
-      <item value="This mask is set if the device woke because of this key event." />
-      <item value="display Id" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="104" />
+        <entry key="CHINESE" value="105" />
+        <entry key="ENGLISH" value="106" />
         <entry key="ARABIC" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="SPANISH" value="2" />
