@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="coordinates" />
+      <item value="Mock version of the SurfaceView. * Only non override public methods from the real SurfaceView have been added in there. * Methods that take an unknown class as parameter or as return object, have been removed for now." />
       <item value="the fling velocity on the X axis" />
       <item value="Gesture Detector" />
       <item value="on Fling" />
@@ -49,13 +51,11 @@
       <item value="contact" />
       <item value="The length of the major axis of an ellipse that describes the touch area at the point of contact." />
       <item value="component" />
-      <item value="The X component of the pointer movement." />
-      <item value="axis" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="99" />
-        <entry key="ENGLISH" value="100" />
+        <entry key="CHINESE" value="101" />
+        <entry key="ENGLISH" value="102" />
         <entry key="ARABIC" value="1" />
         <entry key="SPANISH" value="2" />
       </map>
