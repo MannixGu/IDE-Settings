@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="is Fling Down" />
+      <item value="拨动" />
+      <item value="转换" />
+      <item value="Fling Button" />
       <item value="放大镜" />
       <item value="magnifier" />
       <item value="Calibration Listener" />
@@ -47,15 +51,11 @@
       <item value="retrieve" />
       <item value="retrueve" />
       <item value="view" />
-      <item value="permision" />
-      <item value="single Partner Count" />
-      <item value="Run State Recorder" />
-      <item value="* This attribute returns the text content of this node and its * descendants. When it is defined to be &lt;code&gt;null&lt;/code&gt;, setting it * has no effect. On setting, any possible children this node may have * are removed and, if it the new string is not empty or * &lt;code&gt;null&lt;/code&gt;, replaced by a single &lt;code&gt;Text&lt;/code&gt; node * containing the string this attribute is set to. * &lt;br&gt; On getting, no serialization is performed, the returned string * does not contain any markup. No whitespace normalization is performed * and the returned string does not contain the white spaces in element * content (see the attribute * &lt;code&gt;Text.isElementContentWhitespace&lt;/code&gt;). Similarly, on setting, * no parsing is performed either, the input string is taken as pure * textual content. * &lt;br&gt;The string returned is made of the text content of this node * depending on its type, as defined below: * &lt;table border='1' cellpadding='3'&gt; * &lt;tr&gt; * &lt;th&gt;Node type&lt;/th&gt; * &lt;th&gt;Content&lt;/th&gt; * &lt;/tr&gt; * &lt;tr&gt; * &lt;td valign='top' rowspan='1' colspan='1'&gt; * ELEMENT_NODE, ATTRIBUTE_NODE, ENTITY_NODE, ENTITY_REFERENCE_NODE, * DOCUMENT_FRAGMENT_NODE&lt;/td&gt; * &lt;td valign='top' rowspan='1' colspan='1'&gt;concatenation of the &lt;code&gt;textContent&lt;/code&gt; * attribute value of every child node, excluding COMMENT_NODE and * PROCESSING_INSTRUCTION_NODE nodes. This is the empty string if the * node has no children.&lt;/td&gt; * &lt;/tr&gt; * &lt;tr&gt; * &lt;td valign='top' rowspan='1' colspan='1'&gt;TEXT_NODE, CDATA_SECTION_NODE, COMMENT_NODE, * PROCESSING_INSTRUCTION_NODE&lt;/td&gt; * &lt;td valign='top' rowspan='1' colspan='1'&gt;&lt;code&gt;nodeValue&lt;/code&gt;&lt;/td&gt; * &lt;/tr&gt; * &lt;tr&gt; * &lt;td valign='top' rowspan='1' colspan='1'&gt;DOCUMENT_NODE, * DOCUMENT_TYPE_NODE, NOTATION_NODE&lt;/td&gt; * &lt;td valign='top' rowspan='1' colspan='1'&gt;&lt;em&gt;null&lt;/em&gt;&lt;/td&gt; * &lt;/tr&gt;" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="110" />
-        <entry key="ENGLISH" value="111" />
+        <entry key="CHINESE" value="113" />
+        <entry key="ENGLISH" value="114" />
         <entry key="ARABIC" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="SPANISH" value="2" />
