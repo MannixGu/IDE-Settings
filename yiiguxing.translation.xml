@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Interface definition for a callback to be invoked when the global layout state * or the visibility of views within the view tree changes." />
       <item value="true if the event is consumed, else false" />
       <item value="Notified when a double-tap occurs. Triggered on the down event of second tap." />
       <item value="is Fling Down" />
@@ -50,12 +51,11 @@
       <item value="* Created by LG on 2020/9/9. * You have to run so hard to keep the place * The more stable, the more vulnerable" />
       <item value="* Returns true iff the specified rectangle r is inside or equal to this * rectangle. An empty rectangle never contains another rectangle." />
       <item value="retrievewindow" />
-      <item value="retrieve" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="115" />
-        <entry key="ENGLISH" value="116" />
+        <entry key="CHINESE" value="116" />
+        <entry key="ENGLISH" value="117" />
         <entry key="ARABIC" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="SPANISH" value="2" />
