@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Sets the horizontal location of this view relative to its {@link #getLeft() left} position. * This effectively positions the object post-layout, in addition to wherever the object's * layout placed it." />
+      <item value="scale Factor" />
       <item value="create Image Thumbnail" />
       <item value="Also, don't populate until we are attached to a window. This is to // avoid trying to populate before we have restored our view hierarchy // state and conflicting with what is restored." />
       <item value="hierarchy" />
@@ -49,13 +51,11 @@
       <item value="Check against our minimum height and width" />
       <item value="A {@link ImageButton} which supports compatible features on older versions of the platform, * including:" />
       <item value="Nested Scrolling Child 2" />
-      <item value="hide Before" />
-      <item value="video" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="122" />
-        <entry key="ENGLISH" value="123" />
+        <entry key="CHINESE" value="124" />
+        <entry key="ENGLISH" value="125" />
         <entry key="ARABIC" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="SPANISH" value="2" />
