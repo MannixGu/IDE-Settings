@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="constrain Translation" />
       <item value="Sets the horizontal location of this view relative to its {@link #getLeft() left} position. * This effectively positions the object post-layout, in addition to wherever the object's * layout placed it." />
       <item value="scale Factor" />
       <item value="create Image Thumbnail" />
@@ -18,7 +19,6 @@
       <item value="放大镜" />
       <item value="magnifier" />
       <item value="Calibration Listener" />
-      <item value="constrain Translation" />
       <item value="magnifier View" />
       <item value="GRAPHIC THICKNESS" />
       <item value="$Switch Map$com$touptek$toupview$Tp Const$GRAPHIC THICKNESS" />
@@ -54,8 +54,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="124" />
-        <entry key="ENGLISH" value="125" />
+        <entry key="CHINESE" value="125" />
+        <entry key="ENGLISH" value="126" />
         <entry key="ARABIC" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="SPANISH" value="2" />
