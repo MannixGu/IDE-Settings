@@ -1,4 +1,9 @@
 <application>
+  <component name="GithubAccounts">
+    <account id="9e96ee69-1ba1-4039-aaf8-19a5391202d9" name="MannixGu">
+      <server host="github.com" />
+    </account>
+  </component>
   <component name="GithubSettings">
     <option name="LOGIN" value="214267245@qq.com" />
     <option name="AUTH_TYPE" value="BASIC" />
