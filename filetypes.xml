@@ -4,6 +4,7 @@
       <mapping ext="webp" type="Image" />
       <mapping pattern="testDex" type="JAVA" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping ext="gradle.kts" type="Kotlin" />
       <mapping pattern="frida_sh" type="PLAIN_TEXT" />
       <mapping pattern="xposed_init" type="PLAIN_TEXT" />
       <mapping pattern="ddd" type="PLAIN_TEXT" />
