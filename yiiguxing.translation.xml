@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Determines the integer value of the system property with the * specified name. *" />
+      <item value="Returns the integer value of the system property with the * specified name. The first argument is treated as the name of a * system property. System properties are accessible through the * {@link java.lang.System#getProperty(java.lang.String)} method. * The string value of this property is then interpreted as an * integer value, as per the {@link Integer#decode decode} method, * and an {@code Integer} object representing this value is * returned; in summary:" />
+      <item value="the radix to be used while parsing {@code s}. * @return the integer represented by the string argument in the * specified radix." />
       <item value="Returns the drawable's intrinsic width." />
       <item value="Interface definition for a callback to be invoked when the global layout state * or the visibility of views within the view tree changes." />
       <item value="true if the event is consumed, else false" />
@@ -48,14 +51,11 @@
       <item value="Nested Scrolling Child 2" />
       <item value="hide Before" />
       <item value="video" />
-      <item value="btn vedio" />
-      <item value="* Created by LG on 2020/9/9. * You have to run so hard to keep the place * The more stable, the more vulnerable" />
-      <item value="* Returns true iff the specified rectangle r is inside or equal to this * rectangle. An empty rectangle never contains another rectangle." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="117" />
-        <entry key="ENGLISH" value="118" />
+        <entry key="CHINESE" value="120" />
+        <entry key="ENGLISH" value="121" />
         <entry key="ARABIC" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="SPANISH" value="2" />
