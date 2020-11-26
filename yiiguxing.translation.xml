@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Removes a layout rule to be interpreted by the RelativeLayout." />
+      <item value="daemon" />
+      <item value="explicitly" />
+      <item value="Android-changed: Use Android specific nativeCreate() method to create/start thread. // The upstream native method start0() only takes a reference to this object and so must obtain // the stack size and daemon status directly from the field whereas Android supplies the values // explicitly on the method call. // private native void start0();" />
       <item value="start Main Server Through Alarm" />
       <item value="Determines the integer value of the system property with the * specified name. *" />
       <item value="Returns the integer value of the system property with the * specified name. The first argument is treated as the name of a * system property. System properties are accessible through the * {@link java.lang.System#getProperty(java.lang.String)} method. * The string value of this property is then interpreted as an * integer value, as per the {@link Integer#decode decode} method, * and an {@code Integer} object representing this value is * returned; in summary:" />
@@ -47,19 +51,19 @@
       <item value="BEHAVIOR RESUME ONLY CURRENT FRAGMENT" />
       <item value="Utility to reconcile a desired size and state, with constraints imposed * by a MeasureSpec. Will take the desired size, unless a different size * is imposed by the constraints. The returned value is a compound integer, * with the resolved size in the {@link #MEASURED_SIZE_MASK} bits and * optionally the bit {@link #MEASURED_STATE_TOO_SMALL} set if the * resulting size is smaller than the size the view wants to be." />
       <item value="Check against our foreground's minimum height and width" />
-      <item value="Check against our minimum height and width" />
-      <item value="A {@link ImageButton} which supports compatible features on older versions of the platform, * including:" />
-      <item value="Nested Scrolling Child 2" />
-      <item value="hide Before" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="123" />
-        <entry key="ENGLISH" value="124" />
+        <entry key="CHINESE" value="127" />
+        <entry key="ENGLISH" value="128" />
         <entry key="ARABIC" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="SPANISH" value="2" />
       </map>
     </option>
+  </component>
+  <component name="Settings">
+    <option name="ignoreRegExp" value="" />
+    <option name="translateDocumentation" value="true" />
   </component>
 </application>
