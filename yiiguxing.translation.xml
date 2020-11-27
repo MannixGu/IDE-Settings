@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Paint flag that enables antialiasing when drawing." />
       <item value="Removes a layout rule to be interpreted by the RelativeLayout." />
       <item value="daemon" />
       <item value="explicitly" />
@@ -50,12 +51,11 @@
       <item value="populate" />
       <item value="BEHAVIOR RESUME ONLY CURRENT FRAGMENT" />
       <item value="Utility to reconcile a desired size and state, with constraints imposed * by a MeasureSpec. Will take the desired size, unless a different size * is imposed by the constraints. The returned value is a compound integer, * with the resolved size in the {@link #MEASURED_SIZE_MASK} bits and * optionally the bit {@link #MEASURED_STATE_TOO_SMALL} set if the * resulting size is smaller than the size the view wants to be." />
-      <item value="Check against our foreground's minimum height and width" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="127" />
-        <entry key="ENGLISH" value="128" />
+        <entry key="CHINESE" value="128" />
+        <entry key="ENGLISH" value="129" />
         <entry key="ARABIC" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="SPANISH" value="2" />
