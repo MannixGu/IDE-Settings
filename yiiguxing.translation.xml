@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="m First Amend" />
       <item value="Apply this matrix to the rectangle, and write the transformed rectangle back into it. This is * accomplished by transforming the 4 corners of rect, and then setting it to the bounds of * those points" />
       <item value="Return the average distance between each of the pointers forming the * gesture in progress through the focal point. *" />
       <item value="Only applies if the matrix contains more than just * translation." />
@@ -50,12 +51,11 @@
       <item value="Removes any ID from the end of the path." />
       <item value="BUCKET DISPLAY NAME" />
       <item value="if the specified column type is blob" />
-      <item value="save With Burn" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="132" />
-        <entry key="ENGLISH" value="132" />
+        <entry key="ENGLISH" value="133" />
         <entry key="ARABIC" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="SPANISH" value="2" />
