@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="obtain" />
+      <item value="Velocity Tracker" />
       <item value="Sets the minimum height of the view. It is not guaranteed the view will * be able to achieve this minimum height (for example, if its parent layout * constrains it with less available height). *" />
       <item value="adaptive Item View Size" />
       <item value="Denotes that an integer parameter, field or method return value is expected * to be a layout resource reference (e.g. {@code android.R.layout.list_content})." />
@@ -49,13 +51,11 @@
       <item value="mounted" />
       <item value="Resolver" />
       <item value="m Content Resolver" />
-      <item value="load Thumbnail With Q Api" />
-      <item value="Thumbnail" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="137" />
-        <entry key="ENGLISH" value="137" />
+        <entry key="CHINESE" value="138" />
+        <entry key="ENGLISH" value="139" />
         <entry key="ARABIC" value="1" />
         <entry key="SWEDISH" value="1" />
         <entry key="SPANISH" value="2" />
